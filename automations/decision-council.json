@@ -35,7 +35,7 @@
           "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NPMP922SAHDKHQS8Q"
+            "id": "01KP2MV4A064B82EF4Q2QS2RCD"
           }
         }
       }
@@ -53,7 +53,7 @@
           "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8N4VKKY6WB2XX4CB0A"
+            "id": "01KP2MV4A0YKPJ7EFBJ6CDB1Z8"
           }
         }
       }
@@ -71,7 +71,7 @@
           "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NDTKXX5K4NFZE32YC"
+            "id": "01KP2MV4A02PX80CXR34F0DX7V"
           }
         }
       }
@@ -89,7 +89,7 @@
           "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NVMYWZ85XHAVP0RG4"
+            "id": "01KP2MV4A0283A4MZMMMJ8WC61"
           }
         }
       }
@@ -108,39 +108,39 @@
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "aSs5trhjYStYSydc"
+            "id": "HihBURwSkvDn1KiC"
           }
         }
       }
     }
   ],
   "variables": {
-    "01KP22WA8NPMP922SAHDKHQS8Q": {
-      "id": "01KP22WA8NPMP922SAHDKHQS8Q",
+    "strategist": {
+      "id": "strategist",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "01KP22WA8N4VKKY6WB2XX4CB0A": {
-      "id": "01KP22WA8N4VKKY6WB2XX4CB0A",
+    "critic": {
+      "id": "critic",
       "rank": "k",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "01KP22WA8NDTKXX5K4NFZE32YC": {
-      "id": "01KP22WA8NDTKXX5K4NFZE32YC",
+    "researcher": {
+      "id": "researcher",
       "rank": "s",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "01KP22WA8NVMYWZ85XHAVP0RG4": {
-      "id": "01KP22WA8NVMYWZ85XHAVP0RG4",
+    "builder": {
+      "id": "builder",
       "rank": "w",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "aSs5trhjYStYSydc": {
-      "id": "aSs5trhjYStYSydc",
+    "decision-log": {
+      "id": "decision-log",
       "rank": "y",
       "type": "string",
       "format": "taskade-project-id"

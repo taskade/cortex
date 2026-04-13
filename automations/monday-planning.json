@@ -26,7 +26,7 @@
           "input": "It's Monday morning. Identify the ONE thing that matters most this week. Surface the tradeoffs in choosing it over everything else on the table. Structure your output:\n\n1. THE ONE THING — One sentence, no hedging\n2. WHY THIS WEEK — What makes right now the right moment\n3. WHAT WE'RE NOT DOING — The top 3 things we're explicitly deferring and why\n4. THE TRADEOFF — The real cost of this focus\n5. THE SIGNAL TO WATCH — One metric or signal that tells us if we're right\n6. RISK — What could invalidate this by Friday",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NPMP922SAHDKHQS8Q"
+            "id": "01KP2MV4A064B82EF4Q2QS2RCD"
           }
         }
       }
@@ -45,21 +45,21 @@
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "zWQheH5BoVPriUiE"
+            "id": "8VNTPiqG9XGrbRhY"
           }
         }
       }
     }
   ],
   "variables": {
-    "01KP22WA8NPMP922SAHDKHQS8Q": {
-      "id": "01KP22WA8NPMP922SAHDKHQS8Q",
+    "strategist": {
+      "id": "strategist",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "zWQheH5BoVPriUiE": {
-      "id": "zWQheH5BoVPriUiE",
+    "company-context": {
+      "id": "company-context",
       "rank": "k",
       "type": "string",
       "format": "taskade-project-id"

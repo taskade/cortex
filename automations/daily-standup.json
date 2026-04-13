@@ -63,7 +63,7 @@
           "input": "Review open tasks across the workspace and suggest what should ship today. Prioritize by urgency, dependencies, and impact. Format as a clear, actionable standup list.",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NVMYWZ85XHAVP0RG4"
+            "id": "01KP2MV4A0283A4MZMMMJ8WC61"
           }
         }
       }
@@ -82,21 +82,21 @@
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "aSs5trhjYStYSydc"
+            "id": "HihBURwSkvDn1KiC"
           }
         }
       }
     }
   ],
   "variables": {
-    "01KP22WA8NVMYWZ85XHAVP0RG4": {
-      "id": "01KP22WA8NVMYWZ85XHAVP0RG4",
+    "builder": {
+      "id": "builder",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "aSs5trhjYStYSydc": {
-      "id": "aSs5trhjYStYSydc",
+    "decision-log": {
+      "id": "decision-log",
       "rank": "k",
       "type": "string",
       "format": "taskade-project-id"

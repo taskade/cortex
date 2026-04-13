@@ -4,11 +4,11 @@
     "children": [
       {
         "type": "text",
-        "id": "e8e75fcf-84bd-4024-aaa5-26e52c96c786",
+        "id": "91c4061d-68ca-417b-8ce8-78edfe3bb2ed",
         "text": {
           "ops": [
             {
-              "insert": "Playbook — Fundraise"
+              "insert": "Playbook — Launch"
             },
             {
               "insert": "\n",
@@ -27,11 +27,11 @@
         "children": [
           {
             "type": "text",
-            "id": "6e963fce-8107-489b-8a93-68abf83f5cf6",
+            "id": "ddba096e-0de8-4513-b2b3-23046fc572e7",
             "text": {
               "ops": [
                 {
-                  "insert": "Investor Pipeline"
+                  "insert": "Pre-Launch Checklist (T-14 days)"
                 },
                 {
                   "insert": "\n",
@@ -50,180 +50,11 @@
             "children": [
               {
                 "type": "text",
-                "id": "f23e5a60-801a-418a-addb-a4a335769762",
+                "id": "8b332eaf-d07c-4732-a857-24373e0f6a29",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Stage Count Next Step"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "6f4c2764-15ba-4d9f-8a9b-0bdb78da28ff",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Target list 0 Research + warm intros"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "36ac7c5b-8d5a-448d-a0f4-2ffeda43aa44",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Intro sent 0 Follow up in 3 days"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "b520db84-2c12-418b-9f61-97190f8690e9",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "First meeting 0 Send deck + data room"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "29ead92c-8dcb-46a9-9fd7-20352f3bb879",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Partner meeting 0 Prep deep-dive answers"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "15513956-4617-4727-960c-ea847835332b",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Term sheet 0 Negotiate + legal review"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "6b2118c1-4f9a-423e-ad6e-e126c6b531ba",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Due Diligence Checklist"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "5ea68f75-75d9-4761-a61f-d28703adcd49",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Financial model (3-year projections)"
+                      "insert": "Feature complete and QA'd"
                     },
                     {
                       "insert": "\n",
@@ -243,11 +74,11 @@
               },
               {
                 "type": "text",
-                "id": "071a4006-f875-49f5-82b0-e2e4f3879de0",
+                "id": "4e9a50ed-89fa-4759-a7a4-622add2dccfe",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Cap table (current + post-round)"
+                      "insert": "Staging tested by 3+ team members"
                     },
                     {
                       "insert": "\n",
@@ -267,11 +98,11 @@
               },
               {
                 "type": "text",
-                "id": "b4343441-4ebb-44fb-84c8-964094c6850c",
+                "id": "a4414c9f-0680-42a2-8695-aee90c350cd9",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Key metrics dashboard (MRR, churn, CAC, LTV)"
+                      "insert": "Docs/help articles updated"
                     },
                     {
                       "insert": "\n",
@@ -291,11 +122,11 @@
               },
               {
                 "type": "text",
-                "id": "4aacf737-e7ca-422a-a2fd-26db6dfdbba9",
+                "id": "71247c3e-f64a-4d6a-93c0-deed4c864215",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Customer references (3-5 happy customers)"
+                      "insert": "Changelog entry drafted"
                     },
                     {
                       "insert": "\n",
@@ -315,11 +146,11 @@
               },
               {
                 "type": "text",
-                "id": "a4b0d498-cd73-4d1a-90b9-bfc2dcb99592",
+                "id": "a266c927-15c1-4192-8ad1-9808ed86085c",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Technical architecture overview"
+                      "insert": "Social media posts scheduled"
                     },
                     {
                       "insert": "\n",
@@ -339,11 +170,11 @@
               },
               {
                 "type": "text",
-                "id": "bee54e7f-33e1-42a2-8bf1-fbe6336cefb6",
+                "id": "af628126-efb0-42f5-ad73-7b945a7bf149",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Team bios + org chart"
+                      "insert": "Email announcement drafted"
                     },
                     {
                       "insert": "\n",
@@ -363,11 +194,11 @@
               },
               {
                 "type": "text",
-                "id": "29fa8125-3747-40cc-a085-013d1e23d2d3",
+                "id": "bd93efde-ecc7-41c5-bf64-cf75f80b779a",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Legal: incorporation docs, IP assignments, contracts"
+                      "insert": "Internal team briefed"
                     },
                     {
                       "insert": "\n",
@@ -389,11 +220,11 @@
           },
           {
             "type": "text",
-            "id": "368281cd-c636-4f47-a6c6-afcbd1a83a5b",
+            "id": "e77dfafa-e829-4636-a1b0-8d4828c3c4b8",
             "text": {
               "ops": [
                 {
-                  "insert": "Pitch Deck Structure"
+                  "insert": "Launch Day Checklist (T-0)"
                 },
                 {
                   "insert": "\n",
@@ -412,11 +243,11 @@
             "children": [
               {
                 "type": "text",
-                "id": "446523fe-bb87-4c91-888d-acc310241a8c",
+                "id": "837fa6fe-280b-4555-8334-04065a626fc7",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Problem (1 slide)"
+                      "insert": "Deploy to production"
                     },
                     {
                       "insert": "\n",
@@ -427,8 +258,8 @@
                   ]
                 },
                 "format": {
-                  "node": "number",
-                  "children": "number"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -436,11 +267,11 @@
               },
               {
                 "type": "text",
-                "id": "b62b85eb-8b63-4ed9-b0ed-cd4fdd29b5a7",
+                "id": "9775484e-8922-477e-b415-c40b7db3833a",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Solution (1 slide)"
+                      "insert": "Smoke test core flows"
                     },
                     {
                       "insert": "\n",
@@ -451,8 +282,8 @@
                   ]
                 },
                 "format": {
-                  "node": "number",
-                  "children": "number"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -460,11 +291,11 @@
               },
               {
                 "type": "text",
-                "id": "ef9accee-0a61-4dc3-b2de-2da03e55a295",
+                "id": "7717b4c2-7182-4928-9f9f-ecc39ab084f5",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Demo / product (2 slides)"
+                      "insert": "Publish changelog"
                     },
                     {
                       "insert": "\n",
@@ -475,8 +306,8 @@
                   ]
                 },
                 "format": {
-                  "node": "number",
-                  "children": "number"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -484,11 +315,11 @@
               },
               {
                 "type": "text",
-                "id": "cae9c6e6-cc55-49c4-bf09-d0cfb692a65a",
+                "id": "7f2febff-078e-4bfe-88e6-ac5c665b5996",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Market size (1 slide)"
+                      "insert": "Send email announcement"
                     },
                     {
                       "insert": "\n",
@@ -499,8 +330,8 @@
                   ]
                 },
                 "format": {
-                  "node": "number",
-                  "children": "number"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -508,11 +339,11 @@
               },
               {
                 "type": "text",
-                "id": "fcc9d080-1f8f-48e4-bbcc-5d7f76d213da",
+                "id": "66cdb344-33aa-4c1b-9ea8-19e5cc74703f",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Business model (1 slide)"
+                      "insert": "Post on social media"
                     },
                     {
                       "insert": "\n",
@@ -523,8 +354,8 @@
                   ]
                 },
                 "format": {
-                  "node": "number",
-                  "children": "number"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -532,11 +363,11 @@
               },
               {
                 "type": "text",
-                "id": "2ec50faa-ce3d-4f50-92ac-b85192c45c71",
+                "id": "285ade4d-104e-431a-86d9-0205d38943b2",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Traction (1 slide)"
+                      "insert": "Monitor error rates (Sentry)"
                     },
                     {
                       "insert": "\n",
@@ -547,8 +378,8 @@
                   ]
                 },
                 "format": {
-                  "node": "number",
-                  "children": "number"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -556,11 +387,11 @@
               },
               {
                 "type": "text",
-                "id": "20a68a83-1130-48a5-82fa-c68cb0e5e0ab",
+                "id": "8fb322eb-1edd-45ee-af0a-61e1255d69b1",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Team (1 slide)"
+                      "insert": "Monitor support inbox"
                     },
                     {
                       "insert": "\n",
@@ -571,8 +402,57 @@
                   ]
                 },
                 "format": {
-                  "node": "number",
-                  "children": "number"
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "19b95767-a820-4855-ab39-79f2d935e7a7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Post-Launch (T+7)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a0b69212-4659-43fd-a6a7-8db1e667141d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Review metrics vs. targets"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -580,11 +460,11 @@
               },
               {
                 "type": "text",
-                "id": "801b0024-3690-44a4-8c89-f7e2ab3ece66",
+                "id": "e39c453c-2050-43d1-ad78-b1e491eab5e5",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Ask (1 slide)"
+                      "insert": "Collect user feedback"
                     },
                     {
                       "insert": "\n",
@@ -595,8 +475,80 @@
                   ]
                 },
                 "format": {
-                  "node": "number",
-                  "children": "number"
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a7a98bb3-d83c-4016-84f2-f80ab97cf038",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Triage bugs filed"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e1adfaf4-3982-46e5-9358-26682b031bf8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Write retrospective"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c996678c-88f4-4d4b-9bf5-552fd697952d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Plan iteration based on feedback"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -611,7 +563,7 @@
   "preferences": {
     "avatar": {
       "type": "emoji",
-      "value": "💌"
+      "value": "🌐"
     }
   }
 }

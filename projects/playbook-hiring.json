@@ -4,11 +4,11 @@
     "children": [
       {
         "type": "text",
-        "id": "f1159fde-8dbf-43b1-ad49-43f8e1e159ac",
+        "id": "3595fb78-6c5b-47ad-a8ab-87d99a01a739",
         "text": {
           "ops": [
             {
-              "insert": "Library — References"
+              "insert": "Playbook — Hiring"
             },
             {
               "insert": "\n",
@@ -27,11 +27,11 @@
         "children": [
           {
             "type": "text",
-            "id": "7b445805-f8d1-4efc-907d-e267e645407b",
+            "id": "4c5475a0-c268-4f31-a9f6-3efc23e1bc5e",
             "text": {
               "ops": [
                 {
-                  "insert": "Essential Reading"
+                  "insert": "Process Overview"
                 },
                 {
                   "insert": "\n",
@@ -50,11 +50,11 @@
             "children": [
               {
                 "type": "text",
-                "id": "2bdf7def-a070-43e2-95a4-0a76517447ab",
+                "id": "57974de6-fd64-4234-bedf-46b0e6423a71",
                 "text": {
                   "ops": [
                     {
-                      "insert": "\"The Mom Test\" — Rob Fitzpatrick (customer interviews)"
+                      "insert": "Define role → 2. Source candidates → 3. Screen → 4. Interview → 5. Decide → 6. Offer → 7. Onboard"
                     },
                     {
                       "insert": "\n",
@@ -65,104 +65,8 @@
                   ]
                 },
                 "format": {
-                  "node": "checkbox",
-                  "children": "checkbox"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "2c994a35-c3eb-4365-8bbd-f01a89a260dd",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "\"Obviously Awesome\" — April Dunford (positioning)"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "checkbox",
-                  "children": "checkbox"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "36b0f2fe-470b-4e5e-ae48-d4ce786d59b6",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "\"Working Backwards\" — Colin Bryar (Amazon's process)"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "checkbox",
-                  "children": "checkbox"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "82b4aa47-7fdf-4ab1-9eec-737c5f3693e0",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "\"High Output Management\" — Andy Grove (management)"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "checkbox",
-                  "children": "checkbox"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "f6de14eb-3094-4896-938b-387a39e473d6",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "\"The Hard Thing About Hard Things\" — Ben Horowitz (startup reality)"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "checkbox",
-                  "children": "checkbox"
+                  "node": "number",
+                  "children": "number"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -172,11 +76,11 @@
           },
           {
             "type": "text",
-            "id": "fc9653a3-b693-4d0b-93bd-22d1fb862df2",
+            "id": "fed1c71e-ca4a-4c66-aec8-b27d8da9e4e4",
             "text": {
               "ops": [
                 {
-                  "insert": "Canonical Blog Posts"
+                  "insert": "Role Definition Template"
                 },
                 {
                   "insert": "\n",
@@ -195,16 +99,13 @@
             "children": [
               {
                 "type": "text",
-                "id": "9dfea986-bd37-4ec3-bc99-df0c0ab61a40",
+                "id": "1d7dabcc-a84f-4498-81c3-f2e478a523d4",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Paul Graham: \"Do Things That Don't Scale\" — "
-                    },
-                    {
-                      "insert": "http://paulgraham.com/ds.html",
+                      "insert": "Title:",
                       "attributes": {
-                        "link": "http://paulgraham.com/ds.html"
+                        "bold": true
                       }
                     },
                     {
@@ -225,11 +126,14 @@
               },
               {
                 "type": "text",
-                "id": "5b4b955b-8427-411e-8d28-973716486537",
+                "id": "a9dac8f3-1230-4598-9046-c3bd3cc5b755",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Marc Andreessen: \"Product-Market Fit\" — pmarchive.com"
+                      "insert": "Reports to:",
+                      "attributes": {
+                        "bold": true
+                      }
                     },
                     {
                       "insert": "\n",
@@ -249,11 +153,137 @@
               },
               {
                 "type": "text",
-                "id": "14bfdaaa-de68-47fc-a4cc-cf9b5ff1fea2",
+                "id": "3079e010-acbc-47fa-875b-a3202d08538b",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Brian Chesky: \"7-Star Experience\" — Masters of Scale"
+                      "insert": "Why now:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " What changed that makes this role necessary?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2cccab49-a6f7-472c-86e6-39455c045fc6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Success in 90 days:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " What will this person have shipped?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "12b0b161-0441-4b53-a2b6-6a0cd27b172c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Must-haves:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [3 non-negotiable skills]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d0b789be-4bfd-467d-b48f-cbc0a2882d3c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Nice-to-haves:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [3 bonus skills]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9ca4094f-0f81-4040-84fc-5e8556054fa8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Anti-patterns:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [3 red flags in candidates]"
                     },
                     {
                       "insert": "\n",
@@ -275,11 +305,11 @@
           },
           {
             "type": "text",
-            "id": "a572164a-6867-4f46-92a6-a58416b06f4d",
+            "id": "8d0c4595-d5d2-45cd-9d95-bd8e30037df8",
             "text": {
               "ops": [
                 {
-                  "insert": "Tools & Resources"
+                  "insert": "Interview Structure"
                 },
                 {
                   "insert": "\n",
@@ -298,11 +328,11 @@
             "children": [
               {
                 "type": "text",
-                "id": "2c94f614-8c94-4f41-b4ca-64c15104aeaf",
+                "id": "23cf944f-c862-4831-84ba-ba2f3d3503ef",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Category Tool Use Case"
+                      "insert": "Round Duration Focus Interviewer"
                     },
                     {
                       "insert": "\n",
@@ -322,11 +352,11 @@
               },
               {
                 "type": "text",
-                "id": "e73e6f54-1215-448c-ab52-5090f058ee4e",
+                "id": "f5b463f2-7970-4d02-b013-167309e37f9f",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Analytics Mixpanel Product analytics"
+                      "insert": "Screen 30 min Culture + motivation Hiring manager"
                     },
                     {
                       "insert": "\n",
@@ -346,11 +376,11 @@
               },
               {
                 "type": "text",
-                "id": "9a414cb1-c511-4097-9229-5a2d157d0906",
+                "id": "2d7ffed1-6b41-45c4-a27d-e3dbd79ee84b",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Support Zendesk Ticket management"
+                      "insert": "Technical 60 min Skills + problem solving Team lead"
                     },
                     {
                       "insert": "\n",
@@ -370,11 +400,11 @@
               },
               {
                 "type": "text",
-                "id": "f730022d-efe7-4aa2-a8a3-a52fb39a928f",
+                "id": "a9f483b9-80e2-48a5-8e76-e76b4097d7e9",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Design Figma UI/UX design"
+                      "insert": "System design 45 min Architecture thinking Senior engineer"
                     },
                     {
                       "insert": "\n",
@@ -394,35 +424,11 @@
               },
               {
                 "type": "text",
-                "id": "e2294c09-3182-436c-bf21-0ae528f387ae",
+                "id": "8ffda003-4cd4-4924-a903-77598309c083",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Docs Notion/Taskade Internal docs"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "40a6aa88-49d8-442c-a3e7-d350898c4bd0",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "CI/CD GitHub Actions Deployment"
+                      "insert": "Final 30 min Values + questions Founder"
                     },
                     {
                       "insert": "\n",
@@ -444,11 +450,11 @@
           },
           {
             "type": "text",
-            "id": "8b7aa663-65c8-41dd-b0b7-67dbe8977c60",
+            "id": "0f25489a-3d6d-402b-9891-3fb7b879a37d",
             "text": {
               "ops": [
                 {
-                  "insert": "Key Metrics Definitions"
+                  "insert": "Evaluation Criteria"
                 },
                 {
                   "insert": "\n",
@@ -467,17 +473,11 @@
             "children": [
               {
                 "type": "text",
-                "id": "609244e4-6d49-4328-9422-a13812add216",
+                "id": "94c28278-3fb3-4fa7-86d6-2eb5bf5b689c",
                 "text": {
                   "ops": [
                     {
-                      "insert": "MRR:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " Monthly Recurring Revenue (excluding one-time charges)"
+                      "insert": "Can they do the job? (skills)"
                     },
                     {
                       "insert": "\n",
@@ -488,8 +488,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -497,17 +497,11 @@
               },
               {
                 "type": "text",
-                "id": "733fb126-ee6c-4757-9f0b-6639f9fc0a0f",
+                "id": "a7e55fcb-1b60-4207-8578-766c5775eb67",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Churn Rate:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " % of customers lost per month"
+                      "insert": "Will they do the job? (motivation)"
                     },
                     {
                       "insert": "\n",
@@ -518,8 +512,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -527,17 +521,11 @@
               },
               {
                 "type": "text",
-                "id": "51be63c3-6ba8-4596-a3e3-29b2ab9eca42",
+                "id": "7a84748b-48ea-4695-af1a-3a5b89b2e1f3",
                 "text": {
                   "ops": [
                     {
-                      "insert": "CAC:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " Cost to Acquire a Customer (total sales+marketing / new customers)"
+                      "insert": "Can we work with them? (culture)"
                     },
                     {
                       "insert": "\n",
@@ -548,8 +536,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -557,17 +545,11 @@
               },
               {
                 "type": "text",
-                "id": "5d51f717-bde7-4783-ab7c-c6384c2912f1",
+                "id": "85cdc1c3-2302-47fd-9f1a-bdb688650496",
                 "text": {
                   "ops": [
                     {
-                      "insert": "LTV:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " Lifetime Value (average revenue per customer x average lifespan)"
+                      "insert": "Will they raise the bar? (growth potential)"
                     },
                     {
                       "insert": "\n",
@@ -578,38 +560,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "048cfc26-e66f-4caf-b6b5-76a22de0077d",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "NPS:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " Net Promoter Score (-100 to 100)"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "checkbox",
+                  "children": "checkbox"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -624,7 +576,7 @@
   "preferences": {
     "avatar": {
       "type": "emoji",
-      "value": "📚"
+      "value": "✏️"
     }
   }
 }

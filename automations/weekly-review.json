@@ -26,7 +26,7 @@
           "input": "Summarize this week's decisions from the Decision Log in exactly 10 bullets. Cut everything that isn't a concrete decision, number, name, or outcome. Be ruthless.",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8N1S8JDRDP55D87NX5"
+            "id": "01KP2MV4A08B7NCXR1HBFS2VXN"
           }
         }
       }
@@ -44,7 +44,7 @@
           "input": "Stress test next week's plan. Identify the three most likely points of failure, the hidden assumptions, and the conditions under which the plan breaks down completely.",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NPMP922SAHDKHQS8Q"
+            "id": "01KP2MV4A064B82EF4Q2QS2RCD"
           }
         }
       }
@@ -63,27 +63,27 @@
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "aSs5trhjYStYSydc"
+            "id": "HihBURwSkvDn1KiC"
           }
         }
       }
     }
   ],
   "variables": {
-    "01KP22WA8N1S8JDRDP55D87NX5": {
-      "id": "01KP22WA8N1S8JDRDP55D87NX5",
+    "editor": {
+      "id": "editor",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "01KP22WA8NPMP922SAHDKHQS8Q": {
-      "id": "01KP22WA8NPMP922SAHDKHQS8Q",
+    "strategist": {
+      "id": "strategist",
       "rank": "k",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "aSs5trhjYStYSydc": {
-      "id": "aSs5trhjYStYSydc",
+    "decision-log": {
+      "id": "decision-log",
       "rank": "s",
       "type": "string",
       "format": "taskade-project-id"
