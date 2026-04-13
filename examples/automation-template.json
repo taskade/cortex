@@ -1,0 +1,29 @@
+{
+  "version": "2",
+  "flowTitle": "My Flow",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Input for message"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "valid": true,
+      "type": "taskade_ai_prompt",
+      "settings": {
+        "prompt": "Process the input: {{trigger.message}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "name": "My Agent",
+  "description": "Describe your agent's role, rules, format, and voice. Be specific — vague prompts produce vague agents.",
+  "persona": "my-persona",
+  "tone": "direct",
+  "language": "en-US",
+  "llm": { "type": "anthropic", "name": "anthropic/claude-sonnet-4.6" },
+  "introduction": "One sentence the agent says when the conversation starts.",
+  "avatar": { "type": "emoji", "data": { "value": "🤖" } },
+  "commands": [
+    {
+      "id": "my_command",
+      "name": "My Command",
+      "prompt": "Describe what the agent should do when this command is invoked.",
+      "mode": "default"
+    }
+  ],
+  "conversationStarters": [
+    { "id": "starter-1", "text": "Try me with this prompt." }
+  ]
+}
