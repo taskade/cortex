@@ -7,6 +7,9 @@ on:
       - master
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   validate-bundle:
     runs-on: ubuntu-latest
@@ -22,3 +25,15 @@ jobs:
 
       - name: Run CI checks
         run: npm run ci
+
+      - name: Reassemble bundle
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: npm run assemble
+
+      - name: Commit updated cortex.tsk
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cortex.tsk
+          git diff --staged --quiet && echo "cortex.tsk is up to date" || git commit -m "chore: reassemble cortex.tsk [skip ci]" && git push
