@@ -4,11 +4,11 @@
     "children": [
       {
         "type": "text",
-        "id": "43eac57e-ef23-4833-9412-a3a7295f1b7e",
+        "id": "0d74dede-b2d8-4a7b-a2b5-f34e0feb6fcd",
         "text": {
           "ops": [
             {
-              "insert": "Company Context"
+              "insert": "Library — Mental Models & Frameworks"
             },
             {
               "insert": "\n",
@@ -27,11 +27,11 @@
         "children": [
           {
             "type": "text",
-            "id": "a3ba0811-9747-48c9-8b9c-83450ec800a3",
+            "id": "38c93c60-4bda-46fe-abd1-c0d4b0445457",
             "text": {
               "ops": [
                 {
-                  "insert": "Mission"
+                  "insert": "Decision Making"
                 },
                 {
                   "insert": "\n",
@@ -50,13 +50,13 @@
             "children": [
               {
                 "type": "text",
-                "id": "15d90cb1-4f20-4412-b386-7fdc9052839f",
+                "id": "a0e25cb4-b9e2-4629-a8ff-20d5677c6d51",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Define your company's mission here. What problem do you solve? For whom?",
+                      "insert": "Fear Filter",
                       "attributes": {
-                        "italic": true
+                        "bold": true
                       }
                     },
                     {
@@ -77,326 +77,11 @@
               },
               {
                 "type": "text",
-                "id": "ce99aa06-5cdf-4e78-be16-bb45a9fb8247",
+                "id": "96032316-56f5-4d49-ab79-9c2bdbf9c3ff",
                 "text": {
                   "ops": [
                     {
-                      "insert": "One-liner:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Your company] helps [target audience] to [outcome] by [method]."
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "7815d4bb-ac8b-4cdd-9572-e5a2ca701c86",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "North star metric:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [The single number that measures success]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "4127ba58-53df-4dd0-920e-189a4df98bc9",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Customers"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "03fa8805-20d5-4c52-abbb-a7901ce32c26",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Primary persona:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Who buys? Job title, company size, pain points]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "e08109d3-984f-4f46-9c7e-ae251086296f",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Secondary persona:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Who else uses the product?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "5bb434d3-7029-4c52-b129-0f8ddf914b53",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Anti-persona:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Who is NOT your customer? Why?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "819b8422-a338-4a24-b2ac-b38f3add5142",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Product"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "262f55f4-11fd-49c1-8aaf-4c2dc789b207",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Core value prop:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [What do you do better than anyone else?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "1e40aeb3-39c8-48ce-8229-c613c190a07b",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Key features:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Top 3 features that matter]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "bc9fcaca-ff43-4127-91d5-d1720eefbe74",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Tech stack:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [What powers the product]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "28313cf5-dd0b-4150-9c79-dd591672963a",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Competitors"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "61a4c45e-d2ad-4f90-8523-9cbdeeb94525",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Competitor Their Strength Our Advantage"
+                      "insert": "Before any decision, ask:"
                     },
                     {
                       "insert": "\n",
@@ -416,31 +101,85 @@
               },
               {
                 "type": "text",
-                "id": "c8a8dee8-2633-4b89-b55c-7e3b6ee46c0f",
+                "id": "3618432c-1e51-46d2-b607-2139958dd4dc",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Competitor A",
+                      "insert": "Am I avoiding this because it's wrong, or because it's scary?"
+                    },
+                    {
+                      "insert": "\n",
                       "attributes": {
-                        "italic": true
+                        "paragraph": true
                       }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "be908ef2-7cd5-4b90-98aa-43dd141ef2b9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "What's the worst realistic outcome?"
                     },
                     {
-                      "insert": " "
-                    },
-                    {
-                      "insert": "Their moat",
+                      "insert": "\n",
                       "attributes": {
-                        "italic": true
+                        "paragraph": true
                       }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ef286b7d-0d41-4e15-97e4-bc1da890dbea",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Would I regret NOT doing this in 10 years?"
                     },
                     {
-                      "insert": " "
-                    },
-                    {
-                      "insert": "Why we win",
+                      "insert": "\n",
                       "attributes": {
-                        "italic": true
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "20ff3b18-7645-4d45-9b12-ca3dc474fae6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Regret Minimization",
+                      "attributes": {
+                        "bold": true
                       }
                     },
                     {
@@ -461,32 +200,387 @@
               },
               {
                 "type": "text",
-                "id": "342c801e-8221-4abc-83a7-1efa2dc84799",
+                "id": "9ad080ab-cbb4-4e8e-a4d5-c62b096a8eeb",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Competitor B",
+                      "insert": "\"When I'm 80, will I regret not trying this?\" — Bezos"
+                    },
+                    {
+                      "insert": "\n",
                       "attributes": {
-                        "italic": true
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c8a5d781-5640-4915-8c4e-c8ab11ed4e15",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "10x Test",
+                      "attributes": {
+                        "bold": true
                       }
                     },
                     {
-                      "insert": " "
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "343e3518-a18d-44e1-957a-e55be752f8d6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\"Is this 10x better than the alternative, or just 10% better?\""
                     },
                     {
-                      "insert": "Their moat",
+                      "insert": "\n",
                       "attributes": {
-                        "italic": true
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "38f6985f-fc14-4ea0-b38a-b9c2960b2828",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "10% better = incremental, competitors catch up"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b9e18904-35d7-4c82-872c-7fd22a15e4c3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "10x better = category shift, defensible"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "47618114-3a17-4452-b14f-e0caedeffd28",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Strategy"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "e9cd58a2-ae52-4546-a241-9a731af8f8b9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Jobs To Be Done",
+                      "attributes": {
+                        "bold": true
                       }
                     },
                     {
-                      "insert": " "
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "345fae2c-e00d-443b-b24e-6ea6129ac681",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "People don't buy products. They hire them to do a job."
                     },
                     {
-                      "insert": "Why we win",
+                      "insert": "\n",
                       "attributes": {
-                        "italic": true
+                        "paragraph": true
                       }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "266cc72a-0611-4a88-a41f-150e66634999",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Functional job:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " What task does it accomplish?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f188630b-d77c-4256-b14d-f4f84393167b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Emotional job:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " How does it make them feel?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "eccbe3f3-9d8a-49e0-bea8-ccb1eda9ede5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Social job:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " How does it make them look to others?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "347ae9f0-4317-42ff-9dd7-ae56664f8666",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Eisenhower Matrix",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1c87c2da-ade0-4af4-903b-f71445bdc479",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Urgent Not Urgent"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0634cf08-bf0e-4149-85d0-07bd130df95c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Important",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " DO first SCHEDULE"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "16e70b38-f2bf-47cb-9e86-396be5ba287f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Not Important",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " DELEGATE DELETE"
                     },
                     {
                       "insert": "\n",
@@ -508,11 +602,11 @@
           },
           {
             "type": "text",
-            "id": "1d3f5a9c-a343-40b5-b77e-9a01a8215e3a",
+            "id": "ba24a439-7282-49b6-9e63-e18d3ea9885d",
             "text": {
               "ops": [
                 {
-                  "insert": "Voice & Tone"
+                  "insert": "Communication"
                 },
                 {
                   "insert": "\n",
@@ -531,19 +625,16 @@
             "children": [
               {
                 "type": "text",
-                "id": "4b491d3c-0d88-47d8-95ec-2d0a31d0bdd2",
+                "id": "460f6570-7b92-4719-848e-e1ffd3cb4ee5",
                 "text": {
                   "ops": [
                     {
-                      "insert": "We sound like:",
+                      "insert": "Minto Pyramid",
                       "attributes": {
                         "bold": true
                       }
                     },
                     {
-                      "insert": " [Direct, warm, technical, casual?]"
-                    },
-                    {
                       "insert": "\n",
                       "attributes": {
                         "paragraph": true
@@ -552,8 +643,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "text",
+                  "children": "text"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -561,17 +652,11 @@
               },
               {
                 "type": "text",
-                "id": "5f9194d4-d68f-46c8-9189-ff468411024a",
+                "id": "d526bbf3-9dd4-4893-9f96-92a6c3baaf1c",
                 "text": {
                   "ops": [
                     {
-                      "insert": "We never sound like:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Corporate jargon, overly casual?]"
+                      "insert": "Lead with the answer"
                     },
                     {
                       "insert": "\n",
@@ -582,8 +667,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "number",
+                  "children": "number"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -591,17 +676,11 @@
               },
               {
                 "type": "text",
-                "id": "3123cf18-d03e-4102-b63f-7fcf5a5f161c",
+                "id": "0f0c9db6-e552-465a-891e-98ba57342f39",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Writing rules:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Max sentence length? Avoid passive voice?]"
+                      "insert": "Group supporting arguments"
                     },
                     {
                       "insert": "\n",
@@ -612,57 +691,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "569b44dc-4298-4874-9be0-b212c9af0e72",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Non-Goals"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "b4827331-4ec2-419b-bb5a-eecd1ed43ef5",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Things we explicitly do NOT do"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "number",
+                  "children": "number"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -670,11 +700,11 @@
               },
               {
                 "type": "text",
-                "id": "b9a22e2b-66b6-4852-9f9f-6f6af9e859ea",
+                "id": "3ac8bc3f-908d-4f20-8dc6-4a48f596d44f",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Markets we do NOT serve"
+                      "insert": "Order logically within each group"
                     },
                     {
                       "insert": "\n",
@@ -685,8 +715,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "number",
+                  "children": "number"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -694,11 +724,11 @@
               },
               {
                 "type": "text",
-                "id": "5b054f02-1a1d-479d-85e5-1385885c5fa2",
+                "id": "8cfc5fae-6523-48fe-823e-9eb97278d4d2",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Features we will NOT build this year"
+                      "insert": "Support with data at the bottom"
                     },
                     {
                       "insert": "\n",
@@ -709,8 +739,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "number",
+                  "children": "number"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -725,7 +755,7 @@
   "preferences": {
     "avatar": {
       "type": "emoji",
-      "value": "💪"
+      "value": "⚙️"
     }
   }
 }

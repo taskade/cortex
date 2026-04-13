@@ -23,11 +23,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Summarize this week's decisions from the Decision Log in exactly 10 bullets. Cut everything that isn't a concrete decision, number, name, or outcome. Be ruthless.",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8N1S8JDRDP55D87NX5"
-          }
+          "input": "Summarize this week's decisions from the Decision Log in exactly 10 bullets. Cut everything that isn't a concrete decision, number, name, or outcome. Be ruthless."
         }
       }
     },
@@ -41,11 +37,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Stress test next week's plan. Identify the three most likely points of failure, the hidden assumptions, and the conditions under which the plan breaks down completely.",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NPMP922SAHDKHQS8Q"
-          }
+          "input": "Stress test next week's plan. Identify the three most likely points of failure, the hidden assumptions, and the conditions under which the plan breaks down completely."
         }
       }
     },
@@ -60,33 +52,9 @@
         "actionName": "task.create",
         "input": {
           "content": "Weekly Review — {{ trigger[\"triggerTime\"] }}\n\n---\n\n## ✂️ Editor: Week in 10 Bullets\n{{ b1b1b1b1-0001-0001-0001-000000000001[\"result\"] }}\n\n---\n\n## 🧭 Strategist: Stress Test Next Week\n{{ b2b2b2b2-0002-0002-0002-000000000002[\"result\"] }}",
-          "position": "beforeend",
-          "projectId": {
-            "type": "flow-template-variable-input-type",
-            "id": "aSs5trhjYStYSydc"
-          }
+          "position": "beforeend"
         }
       }
     }
-  ],
-  "variables": {
-    "01KP22WA8N1S8JDRDP55D87NX5": {
-      "id": "01KP22WA8N1S8JDRDP55D87NX5",
-      "rank": "V",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "01KP22WA8NPMP922SAHDKHQS8Q": {
-      "id": "01KP22WA8NPMP922SAHDKHQS8Q",
-      "rank": "k",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "aSs5trhjYStYSydc": {
-      "id": "aSs5trhjYStYSydc",
-      "rank": "s",
-      "type": "string",
-      "format": "taskade-project-id"
-    }
-  }
+  ]
 }

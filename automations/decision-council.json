@@ -32,11 +32,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NPMP922SAHDKHQS8Q"
-          }
+          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}"
         }
       }
     },
@@ -50,11 +46,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8N4VKKY6WB2XX4CB0A"
-          }
+          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}"
         }
       }
     },
@@ -68,11 +60,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NDTKXX5K4NFZE32YC"
-          }
+          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}"
         }
       }
     },
@@ -86,11 +74,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NVMYWZ85XHAVP0RG4"
-          }
+          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}"
         }
       }
     },
@@ -105,45 +89,9 @@
         "actionName": "task.create",
         "input": {
           "content": "Decision Council — {{ trigger[\"body\"][\"decision\"] }}\n\n---\n\n## 🧭 Strategist: Counsel on a Decision\n{{ a1a1a1a1-0001-0001-0001-000000000001[\"result\"] }}\n\n---\n\n## ⚔️ Critic: Argue Against This\n{{ a2a2a2a2-0002-0002-0002-000000000002[\"result\"] }}\n\n---\n\n## 🔬 Researcher: Verify a Claim\n{{ a3a3a3a3-0003-0003-0003-000000000003[\"result\"] }}\n\n---\n\n## 🔧 Builder: Spec It\n{{ a4a4a4a4-0004-0004-0004-000000000004[\"result\"] }}",
-          "position": "beforeend",
-          "projectId": {
-            "type": "flow-template-variable-input-type",
-            "id": "aSs5trhjYStYSydc"
-          }
+          "position": "beforeend"
         }
       }
     }
-  ],
-  "variables": {
-    "01KP22WA8NPMP922SAHDKHQS8Q": {
-      "id": "01KP22WA8NPMP922SAHDKHQS8Q",
-      "rank": "V",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "01KP22WA8N4VKKY6WB2XX4CB0A": {
-      "id": "01KP22WA8N4VKKY6WB2XX4CB0A",
-      "rank": "k",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "01KP22WA8NDTKXX5K4NFZE32YC": {
-      "id": "01KP22WA8NDTKXX5K4NFZE32YC",
-      "rank": "s",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "01KP22WA8NVMYWZ85XHAVP0RG4": {
-      "id": "01KP22WA8NVMYWZ85XHAVP0RG4",
-      "rank": "w",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "aSs5trhjYStYSydc": {
-      "id": "aSs5trhjYStYSydc",
-      "rank": "y",
-      "type": "string",
-      "format": "taskade-project-id"
-    }
-  }
+  ]
 }

@@ -36,11 +36,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Classify the following incoming message into exactly ONE of these four categories:\n\n- SUPPORT TICKET — a user reporting a bug, issue, or needing help\n- SALES LEAD — a potential customer asking about pricing, features, or partnerships\n- INVESTOR INTRO — someone expressing interest in investing or requesting a meeting for funding\n- NOISE — spam, irrelevant, automated, or low-signal message\n\nRespond with:\nCATEGORY: [one of the four above]\nCONFIDENCE: [High / Medium / Low]\nREASON: [one sentence max]\n\nMessage:\n{{ trigger[\"body\"][\"message\"] }}\n\nSender: {{ trigger[\"body\"][\"sender\"] }}\nSource: {{ trigger[\"body\"][\"source\"] }}",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NDTKXX5K4NFZE32YC"
-          }
+          "input": "Classify the following incoming message into exactly ONE of these four categories:\n\n- SUPPORT TICKET — a user reporting a bug, issue, or needing help\n- SALES LEAD — a potential customer asking about pricing, features, or partnerships\n- INVESTOR INTRO — someone expressing interest in investing or requesting a meeting for funding\n- NOISE — spam, irrelevant, automated, or low-signal message\n\nRespond with:\nCATEGORY: [one of the four above]\nCONFIDENCE: [High / Medium / Low]\nREASON: [one sentence max]\n\nMessage:\n{{ trigger[\"body\"][\"message\"] }}\n\nSender: {{ trigger[\"body\"][\"sender\"] }}\nSource: {{ trigger[\"body\"][\"source\"] }}"
         }
       }
     },
@@ -55,27 +51,9 @@
         "actionName": "task.create",
         "input": {
           "content": "Inbox Triage — {{ trigger[\"body\"][\"sender\"] }} via {{ trigger[\"body\"][\"source\"] }}\n\n{{ c1c1c1c1-0001-0001-0001-000000000001[\"result\"] }}\n\n---\n\nOriginal message:\n{{ trigger[\"body\"][\"message\"] }}",
-          "position": "beforeend",
-          "projectId": {
-            "type": "flow-template-variable-input-type",
-            "id": "zWQheH5BoVPriUiE"
-          }
+          "position": "beforeend"
         }
       }
     }
-  ],
-  "variables": {
-    "01KP22WA8NDTKXX5K4NFZE32YC": {
-      "id": "01KP22WA8NDTKXX5K4NFZE32YC",
-      "rank": "V",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "zWQheH5BoVPriUiE": {
-      "id": "zWQheH5BoVPriUiE",
-      "rank": "k",
-      "type": "string",
-      "format": "taskade-project-id"
-    }
-  }
+  ]
 }

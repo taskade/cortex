@@ -30,18 +30,5 @@
       "value": "🔍"
     },
     "type": "emoji"
-  },
-  "variables": {
-    "zWQheH5BoVPriUiE": {
-      "id": "zWQheH5BoVPriUiE",
-      "rank": "V",
-      "type": "string"
-    }
-  },
-  "addToKnowledgeProjectVariables": [
-    {
-      "id": "zWQheH5BoVPriUiE",
-      "type": "agent-template-variable-input-type"
-    }
-  ]
+  }
 }

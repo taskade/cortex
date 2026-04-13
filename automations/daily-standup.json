@@ -60,11 +60,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Review open tasks across the workspace and suggest what should ship today. Prioritize by urgency, dependencies, and impact. Format as a clear, actionable standup list.",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NVMYWZ85XHAVP0RG4"
-          }
+          "input": "Review open tasks across the workspace and suggest what should ship today. Prioritize by urgency, dependencies, and impact. Format as a clear, actionable standup list."
         }
       }
     },
@@ -79,27 +75,9 @@
         "actionName": "task.create",
         "input": {
           "content": "Daily Standup — {{ trigger[\"triggerTime\"] }}\n\n{{ c3d4e5f6-7890-abcd-ef12-345678901234[\"result\"] }}",
-          "position": "beforeend",
-          "projectId": {
-            "type": "flow-template-variable-input-type",
-            "id": "aSs5trhjYStYSydc"
-          }
+          "position": "beforeend"
         }
       }
     }
-  ],
-  "variables": {
-    "01KP22WA8NVMYWZ85XHAVP0RG4": {
-      "id": "01KP22WA8NVMYWZ85XHAVP0RG4",
-      "rank": "V",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "aSs5trhjYStYSydc": {
-      "id": "aSs5trhjYStYSydc",
-      "rank": "k",
-      "type": "string",
-      "format": "taskade-project-id"
-    }
-  }
+  ]
 }

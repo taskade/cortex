@@ -4,11 +4,11 @@
     "children": [
       {
         "type": "text",
-        "id": "43eac57e-ef23-4833-9412-a3a7295f1b7e",
+        "id": "8b0e4e9d-7f07-4dba-aa93-5c65d6270051",
         "text": {
           "ops": [
             {
-              "insert": "Company Context"
+              "insert": "Welcome to Cortex"
             },
             {
               "insert": "\n",
@@ -27,11 +27,35 @@
         "children": [
           {
             "type": "text",
-            "id": "a3ba0811-9747-48c9-8b9c-83450ec800a3",
+            "id": "ece8440d-4286-4528-bad2-35660159f409",
             "text": {
               "ops": [
                 {
-                  "insert": "Mission"
+                  "insert": "Cortex is your AI-powered starter brain. It comes pre-loaded with everything you need to run a company, make decisions, and ship products — powered by 5 AI agents, 10 projects, 6 automations, and a dashboard app."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "17248ede-21c1-42d3-9578-641693b243e5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Your 5 Agents"
                 },
                 {
                   "insert": "\n",
@@ -50,14 +74,738 @@
             "children": [
               {
                 "type": "text",
-                "id": "15d90cb1-4f20-4412-b386-7fdc9052839f",
+                "id": "abd892f3-cd9e-445d-946d-3217ab46bc33",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Define your company's mission here. What problem do you solve? For whom?",
+                      "insert": "♟ "
+                    },
+                    {
+                      "insert": "Strategist",
                       "attributes": {
-                        "italic": true
+                        "bold": true
                       }
+                    },
+                    {
+                      "insert": " — Think in tradeoffs, answer in options. Use for major decisions."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "189c8383-d8ad-4725-9750-bd27f134b518",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "✂ "
+                    },
+                    {
+                      "insert": "Editor",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Cut 30%, keep the nerve. Paste any writing and get it tightened."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c2bd7a96-35e1-48b7-a257-33d77b0c06c7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "🔍 "
+                    },
+                    {
+                      "insert": "Researcher",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Find primary sources, cite everything. Verify claims and investigate topics."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5d31999a-9249-4f2c-b122-cc827fa3f8b7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "⚖ "
+                    },
+                    {
+                      "insert": "Critic",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Argue against whatever you just said. Stress-test plans and assumptions."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e41eb1f4-6130-4db3-be95-43f0241ec85b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "🛠 "
+                    },
+                    {
+                      "insert": "Builder",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Spec it, scope it, ship it. Turn ideas into executable specs."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "e48460e5-dee5-48af-a1e9-14fb1835b605",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Your 10 Projects (Memory)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "60e75d1d-eeb2-4e8b-b617-430ebb1e6423",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Company Context",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Who you are, what you sell, how you talk. Every agent reads this."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dc9b9c6a-121e-4478-b4c3-dfeb9d3c6e59",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Decision Log",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Every major call, reasoning, and outcome. Your institutional memory."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "edc3275f-f9a1-47f1-9400-14cb17c5f5e6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "5 Playbooks",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Hiring, Launch, Pricing, Fundraise, Support. Step-by-step processes."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "820f253d-5b41-4986-bd55-c2246adb30eb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2 Libraries",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Frameworks (mental models) and References (links, books, resources)."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3446ce53-81d6-4a2e-ad49-a6605d86b31b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "This Welcome Guide",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — You're reading it now."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f5e44e74-3c13-40da-ab76-2379886fec46",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Your 6 Automations (Reflexes)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "66c7ebc5-853a-4608-8354-fee4ad776aaf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Daily Standup",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Every weekday at 9am, Builder reviews tasks and suggests priorities."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f6bc2b30-5921-4e0f-9228-0d024725bf1c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Decision Council",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Trigger it to have Strategist, Critic, and Researcher debate a decision."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5dff91ec-c017-466b-a462-87d9d7f2cd8b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Weekly Review",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Every Friday, score the week and plan the next one."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0ac7ba72-36b5-4664-b373-69bfb1bc9148",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Inbox Triage",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Classify incoming items and route to the right agent."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "262d5f56-1616-495e-a1b2-26239625e394",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Incident Response",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Assemble a response team and create a war room."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7c775130-98d2-45dd-baf8-eb0ea1b2e6d8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Monday Planning",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Every Monday, review goals and seed the week."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f4a1545e-08a0-4f2e-a622-4dc0fc244037",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Getting Started"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "57a03f38-87f0-4442-a5a1-138120f14190",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Open "
+                    },
+                    {
+                      "insert": "Company Context",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " and fill in your company's details"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3137a9e3-400d-4d15-96f4-04211a3e4205",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Try the "
+                    },
+                    {
+                      "insert": "Strategist",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " agent — ask it to counsel you on a real decision"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "65e74018-db77-4b6d-99e2-a5d18bcc0726",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Trigger the "
+                    },
+                    {
+                      "insert": "Decision Council",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " automation with an example decision"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f2c9e52d-7de3-4f6d-b266-91da7163b60c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Open the "
+                    },
+                    {
+                      "insert": "Dashboard",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " app to see everything connected"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "ea56a8d9-d5c2-4564-8f68-d0d122f3a073",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Customize It"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "1980dc45-cb72-492a-855b-a771ee352a3f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Cortex is a starting point, not a final product. Fork it, rename agents, rewrite playbooks, add your own automations. The structure stays the same — Memory + Intelligence + Reflexes + Interface — but the content becomes yours."
                     },
                     {
                       "insert": "\n",
@@ -77,368 +825,11 @@
               },
               {
                 "type": "text",
-                "id": "ce99aa06-5cdf-4e78-be16-bb45a9fb8247",
+                "id": "e5b20b93-5d00-49ea-b0fd-9ae5321312da",
                 "text": {
                   "ops": [
                     {
-                      "insert": "One-liner:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Your company] helps [target audience] to [outcome] by [method]."
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "7815d4bb-ac8b-4cdd-9572-e5a2ca701c86",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "North star metric:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [The single number that measures success]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "4127ba58-53df-4dd0-920e-189a4df98bc9",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Customers"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "03fa8805-20d5-4c52-abbb-a7901ce32c26",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Primary persona:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Who buys? Job title, company size, pain points]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "e08109d3-984f-4f46-9c7e-ae251086296f",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Secondary persona:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Who else uses the product?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "5bb434d3-7029-4c52-b129-0f8ddf914b53",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Anti-persona:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Who is NOT your customer? Why?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "819b8422-a338-4a24-b2ac-b38f3add5142",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Product"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "262f55f4-11fd-49c1-8aaf-4c2dc789b207",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Core value prop:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [What do you do better than anyone else?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "1e40aeb3-39c8-48ce-8229-c613c190a07b",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Key features:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Top 3 features that matter]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "bc9fcaca-ff43-4127-91d5-d1720eefbe74",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Tech stack:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [What powers the product]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "28313cf5-dd0b-4150-9c79-dd591672963a",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Competitors"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "61a4c45e-d2ad-4f90-8523-9cbdeeb94525",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Competitor Their Strength Our Advantage"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "c8a8dee8-2633-4b89-b55c-7e3b6ee46c0f",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Competitor A",
-                      "attributes": {
-                        "italic": true
-                      }
-                    },
-                    {
-                      "insert": " "
-                    },
-                    {
-                      "insert": "Their moat",
-                      "attributes": {
-                        "italic": true
-                      }
-                    },
-                    {
-                      "insert": " "
-                    },
-                    {
-                      "insert": "Why we win",
+                      "insert": "Built with Taskade Genesis. Fork this at github.com/taskade/cortex.",
                       "attributes": {
                         "italic": true
                       }
@@ -454,263 +845,6 @@
                 "format": {
                   "node": "text",
                   "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "342c801e-8221-4abc-83a7-1efa2dc84799",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Competitor B",
-                      "attributes": {
-                        "italic": true
-                      }
-                    },
-                    {
-                      "insert": " "
-                    },
-                    {
-                      "insert": "Their moat",
-                      "attributes": {
-                        "italic": true
-                      }
-                    },
-                    {
-                      "insert": " "
-                    },
-                    {
-                      "insert": "Why we win",
-                      "attributes": {
-                        "italic": true
-                      }
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "1d3f5a9c-a343-40b5-b77e-9a01a8215e3a",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Voice & Tone"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "4b491d3c-0d88-47d8-95ec-2d0a31d0bdd2",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "We sound like:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Direct, warm, technical, casual?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "5f9194d4-d68f-46c8-9189-ff468411024a",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "We never sound like:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Corporate jargon, overly casual?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "3123cf18-d03e-4102-b63f-7fcf5a5f161c",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Writing rules:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [Max sentence length? Avoid passive voice?]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "569b44dc-4298-4874-9be0-b212c9af0e72",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Non-Goals"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "b4827331-4ec2-419b-bb5a-eecd1ed43ef5",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Things we explicitly do NOT do"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "b9a22e2b-66b6-4852-9f9f-6f6af9e859ea",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Markets we do NOT serve"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "5b054f02-1a1d-479d-85e5-1385885c5fa2",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Features we will NOT build this year"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -725,7 +859,7 @@
   "preferences": {
     "avatar": {
       "type": "emoji",
-      "value": "💪"
+      "value": "📏"
     }
   }
 }

@@ -23,11 +23,7 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "It's Monday morning. Identify the ONE thing that matters most this week. Surface the tradeoffs in choosing it over everything else on the table. Structure your output:\n\n1. THE ONE THING — One sentence, no hedging\n2. WHY THIS WEEK — What makes right now the right moment\n3. WHAT WE'RE NOT DOING — The top 3 things we're explicitly deferring and why\n4. THE TRADEOFF — The real cost of this focus\n5. THE SIGNAL TO WATCH — One metric or signal that tells us if we're right\n6. RISK — What could invalidate this by Friday",
-          "agentId": {
-            "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NPMP922SAHDKHQS8Q"
-          }
+          "input": "It's Monday morning. Identify the ONE thing that matters most this week. Surface the tradeoffs in choosing it over everything else on the table. Structure your output:\n\n1. THE ONE THING — One sentence, no hedging\n2. WHY THIS WEEK — What makes right now the right moment\n3. WHAT WE'RE NOT DOING — The top 3 things we're explicitly deferring and why\n4. THE TRADEOFF — The real cost of this focus\n5. THE SIGNAL TO WATCH — One metric or signal that tells us if we're right\n6. RISK — What could invalidate this by Friday"
         }
       }
     },
@@ -42,27 +38,9 @@
         "actionName": "task.create",
         "input": {
           "content": "📅 Monday Planning — {{ trigger[\"triggerTime\"] }}\n\n{{ e1e1e1e1-0001-0001-0001-000000000001[\"result\"] }}",
-          "position": "beforeend",
-          "projectId": {
-            "type": "flow-template-variable-input-type",
-            "id": "zWQheH5BoVPriUiE"
-          }
+          "position": "beforeend"
         }
       }
     }
-  ],
-  "variables": {
-    "01KP22WA8NPMP922SAHDKHQS8Q": {
-      "id": "01KP22WA8NPMP922SAHDKHQS8Q",
-      "rank": "V",
-      "type": "string",
-      "format": "taskade-space-agent-id"
-    },
-    "zWQheH5BoVPriUiE": {
-      "id": "zWQheH5BoVPriUiE",
-      "rank": "k",
-      "type": "string",
-      "format": "taskade-project-id"
-    }
-  }
+  ]
 }
