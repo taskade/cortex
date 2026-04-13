@@ -1,0 +1,24 @@
+{
+  "root": {
+    "id": "root",
+    "children": [
+      {
+        "id": "node-1",
+        "text": { "ops": [{ "insert": "My Project Title\n" }] },
+        "children": [
+          {
+            "id": "node-2",
+            "text": { "ops": [{ "insert": "First item\n" }] },
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "📄"
+    }
+  }
+}

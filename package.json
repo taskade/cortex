@@ -1,0 +1,21 @@
+{
+  "name": "@taskade/cortex-bundle",
+  "private": true,
+  "version": "0.1.0",
+  "description": "The default starter brain for Taskade Genesis — fork, import, activate.",
+  "type": "module",
+  "scripts": {
+    "summary": "node scripts/summary.mjs",
+    "validate": "node scripts/validate.mjs",
+    "assemble": "node scripts/assemble.mjs",
+    "ci": "npm run summary && npm run validate"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskade/cortex.git"
+  }
+}
