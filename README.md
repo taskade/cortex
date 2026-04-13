@@ -102,7 +102,7 @@ cortex/
 │   └── monday-planning.json
 │
 ├── apps/
-│   └── cortex.json             Genesis app (React SPA)
+│   └── default.json            Genesis app (React SPA, must be "default")
 │
 ├── examples/                   Blank templates for creating new artifacts
 │   ├── agent-template.json
