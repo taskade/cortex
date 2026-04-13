@@ -1,0 +1,149 @@
+{
+  "version": "2",
+  "flowTitle": "Decision Council",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "context": {
+            "type": "string",
+            "description": "Input for context"
+          },
+          "decision": {
+            "type": "string",
+            "description": "Input for decision"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a1a1a1a1-0001-0001-0001-000000000001",
+      "valid": false,
+      "displayName": "Strategist — Counsel on a Decision",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01KP22WA8NPMP922SAHDKHQS8Q"
+          }
+        }
+      }
+    },
+    {
+      "name": "a2a2a2a2-0002-0002-0002-000000000002",
+      "valid": false,
+      "displayName": "Critic — Argue Against This",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01KP22WA8N4VKKY6WB2XX4CB0A"
+          }
+        }
+      }
+    },
+    {
+      "name": "a3a3a3a3-0003-0003-0003-000000000003",
+      "valid": false,
+      "displayName": "Researcher — Verify a Claim",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01KP22WA8NDTKXX5K4NFZE32YC"
+          }
+        }
+      }
+    },
+    {
+      "name": "a4a4a4a4-0004-0004-0004-000000000004",
+      "valid": false,
+      "displayName": "Builder — Spec It",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01KP22WA8NVMYWZ85XHAVP0RG4"
+          }
+        }
+      }
+    },
+    {
+      "name": "a5a5a5a5-0005-0005-0005-000000000005",
+      "valid": false,
+      "displayName": "Append Council Verdict to Decision Log",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "content": "Decision Council — {{ trigger[\"body\"][\"decision\"] }}\n\n---\n\n## 🧭 Strategist: Counsel on a Decision\n{{ a1a1a1a1-0001-0001-0001-000000000001[\"result\"] }}\n\n---\n\n## ⚔️ Critic: Argue Against This\n{{ a2a2a2a2-0002-0002-0002-000000000002[\"result\"] }}\n\n---\n\n## 🔬 Researcher: Verify a Claim\n{{ a3a3a3a3-0003-0003-0003-000000000003[\"result\"] }}\n\n---\n\n## 🔧 Builder: Spec It\n{{ a4a4a4a4-0004-0004-0004-000000000004[\"result\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "aSs5trhjYStYSydc"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "01KP22WA8NPMP922SAHDKHQS8Q": {
+      "id": "01KP22WA8NPMP922SAHDKHQS8Q",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "01KP22WA8N4VKKY6WB2XX4CB0A": {
+      "id": "01KP22WA8N4VKKY6WB2XX4CB0A",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "01KP22WA8NDTKXX5K4NFZE32YC": {
+      "id": "01KP22WA8NDTKXX5K4NFZE32YC",
+      "rank": "s",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "01KP22WA8NVMYWZ85XHAVP0RG4": {
+      "id": "01KP22WA8NVMYWZ85XHAVP0RG4",
+      "rank": "w",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "aSs5trhjYStYSydc": {
+      "id": "aSs5trhjYStYSydc",
+      "rank": "y",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

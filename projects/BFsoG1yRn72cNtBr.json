@@ -1,0 +1,630 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "f1159fde-8dbf-43b1-ad49-43f8e1e159ac",
+        "text": {
+          "ops": [
+            {
+              "insert": "Library — References"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "7b445805-f8d1-4efc-907d-e267e645407b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Essential Reading"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "2bdf7def-a070-43e2-95a4-0a76517447ab",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\"The Mom Test\" — Rob Fitzpatrick (customer interviews)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2c994a35-c3eb-4365-8bbd-f01a89a260dd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\"Obviously Awesome\" — April Dunford (positioning)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "36b0f2fe-470b-4e5e-ae48-d4ce786d59b6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\"Working Backwards\" — Colin Bryar (Amazon's process)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "82b4aa47-7fdf-4ab1-9eec-737c5f3693e0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\"High Output Management\" — Andy Grove (management)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f6de14eb-3094-4896-938b-387a39e473d6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\"The Hard Thing About Hard Things\" — Ben Horowitz (startup reality)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "fc9653a3-b693-4d0b-93bd-22d1fb862df2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Canonical Blog Posts"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "9dfea986-bd37-4ec3-bc99-df0c0ab61a40",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Paul Graham: \"Do Things That Don't Scale\" — "
+                    },
+                    {
+                      "insert": "http://paulgraham.com/ds.html",
+                      "attributes": {
+                        "link": "http://paulgraham.com/ds.html"
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5b4b955b-8427-411e-8d28-973716486537",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Marc Andreessen: \"Product-Market Fit\" — pmarchive.com"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "14bfdaaa-de68-47fc-a4cc-cf9b5ff1fea2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Brian Chesky: \"7-Star Experience\" — Masters of Scale"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a572164a-6867-4f46-92a6-a58416b06f4d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Tools & Resources"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "2c94f614-8c94-4f41-b4ca-64c15104aeaf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Category Tool Use Case"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e73e6f54-1215-448c-ab52-5090f058ee4e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Analytics Mixpanel Product analytics"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9a414cb1-c511-4097-9229-5a2d157d0906",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Support Zendesk Ticket management"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f730022d-efe7-4aa2-a8a3-a52fb39a928f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Design Figma UI/UX design"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e2294c09-3182-436c-bf21-0ae528f387ae",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Docs Notion/Taskade Internal docs"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "40a6aa88-49d8-442c-a3e7-d350898c4bd0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CI/CD GitHub Actions Deployment"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "8b7aa663-65c8-41dd-b0b7-67dbe8977c60",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Key Metrics Definitions"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "609244e4-6d49-4328-9422-a13812add216",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MRR:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " Monthly Recurring Revenue (excluding one-time charges)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "733fb126-ee6c-4757-9f0b-6639f9fc0a0f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Churn Rate:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " % of customers lost per month"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "51be63c3-6ba8-4596-a3e3-29b2ab9eca42",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CAC:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " Cost to Acquire a Customer (total sales+marketing / new customers)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5d51f717-bde7-4783-ab7c-c6384c2912f1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "LTV:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " Lifetime Value (average revenue per customer x average lifespan)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "048cfc26-e66f-4caf-b6b5-76a22de0077d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "NPS:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " Net Promoter Score (-100 to 100)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "📚"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "version": "2",
+  "flowTitle": "Daily Standup",
+  "trigger": {
+    "valid": false,
+    "displayName": "Every Weekday at 9AM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "BLANK",
+      "triggerName": "schedule.daily",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "valid": true,
+      "displayName": "Weekday Filter (Mon–Fri)",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "b2c3d4e5-f678-90ab-cdef-123456789012",
+          "valid": true,
+          "displayName": "Is Weekday",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_is_not_empty",
+                        "id": "7fb4f314-774d-4a21-a95d-bc276be645be",
+                        "data": "{{ trigger[\"triggerTime\"] }}",
+                        "comparator": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": []
+        }
+      ]
+    },
+    {
+      "name": "c3d4e5f6-7890-abcd-ef12-345678901234",
+      "valid": false,
+      "displayName": "Builder — Sequence the Work",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "Review open tasks across the workspace and suggest what should ship today. Prioritize by urgency, dependencies, and impact. Format as a clear, actionable standup list.",
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01KP22WA8NVMYWZ85XHAVP0RG4"
+          }
+        }
+      }
+    },
+    {
+      "name": "d4e5f678-90ab-cdef-1234-567890abcdef",
+      "valid": false,
+      "displayName": "Append Standup to Decision Log",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "content": "Daily Standup — {{ trigger[\"triggerTime\"] }}\n\n{{ c3d4e5f6-7890-abcd-ef12-345678901234[\"result\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "aSs5trhjYStYSydc"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "01KP22WA8NVMYWZ85XHAVP0RG4": {
+      "id": "01KP22WA8NVMYWZ85XHAVP0RG4",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "aSs5trhjYStYSydc": {
+      "id": "aSs5trhjYStYSydc",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

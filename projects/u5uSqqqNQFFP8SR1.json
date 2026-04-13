@@ -1,0 +1,503 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "1b03e65e-3422-4aae-9794-2435ac3a6ac1",
+        "text": {
+          "ops": [
+            {
+              "insert": "Playbook — Support"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "52c68b7a-b501-443e-9c2b-6e5eb1a7245b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Escalation Tree"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "78d39141-400a-4921-9e8d-386caf37e1d9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Severity Response Time Owner Channel"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "61424ebf-1a4e-496c-8ed5-ba0ad442dec9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "P0 — Service down 15 min On-call engineer Slack #incidents"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d4a232df-eaa9-4941-9782-bdeca2082a6b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "P1 — Major feature broken 1 hour Support lead Zendesk"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dbdaeb2d-fb20-4ae5-8bc0-67180688a5a7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "P2 — Minor bug 24 hours Support team Zendesk"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7f57ee46-2655-4848-bdc8-8c86456db90c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "P3 — Feature request 72 hours Product Feedback board"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "fada303a-6b6d-4a66-b74f-6064b7d57ddc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Response Library"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d2ed7df8-764b-4331-81a4-2f60a0072a69",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Account Issues",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c585d8b8-0b26-458a-b25d-22337610ab94",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Password reset:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " \"You can reset your password at [link]. If you're still locked out, reply here and I'll help.\""
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d770f20a-8f6c-4c0f-9b60-a951579a5fa2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Billing question:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " \"I've pulled up your account. [Describe what you see]. Would you like me to [specific action]?\""
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3c7f5b64-b7e0-4468-a433-baba625d073a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Technical Issues",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f458fa5a-819f-4876-b606-7c89e7c23d24",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Bug report:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " \"Thanks for reporting this. I've reproduced it and filed [ticket #]. The team will have a fix in [timeline].\""
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5b76c504-26e8-48c4-bb6d-c1aa07ebe368",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Feature request:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " \"That's a great idea. I've added it to our feedback board at [link]. Other users have asked for this too.\""
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "c40bfd75-0234-4b16-9155-386e693321fa",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Support Metrics"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d4060f38-910c-4fbb-8dcb-52732761c594",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "First response time: target < 2 hours"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d3127294-7afa-4a45-9a5b-29e856654c87",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Resolution time: target < 24 hours"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2a9a650a-771e-416b-8c91-3471a8feb4ff",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CSAT: target > 4.5/5"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "23ea3bcc-d46f-4262-bed7-56b4fd9c09f4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Ticket volume: track weekly trend"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "⚕️"
+    }
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "0d74dede-b2d8-4a7b-a2b5-f34e0feb6fcd",
+        "text": {
+          "ops": [
+            {
+              "insert": "Library — Mental Models & Frameworks"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "38c93c60-4bda-46fe-abd1-c0d4b0445457",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Decision Making"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a0e25cb4-b9e2-4629-a8ff-20d5677c6d51",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Fear Filter",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "96032316-56f5-4d49-ab79-9c2bdbf9c3ff",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Before any decision, ask:"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3618432c-1e51-46d2-b607-2139958dd4dc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Am I avoiding this because it's wrong, or because it's scary?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "be908ef2-7cd5-4b90-98aa-43dd141ef2b9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "What's the worst realistic outcome?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ef286b7d-0d41-4e15-97e4-bc1da890dbea",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Would I regret NOT doing this in 10 years?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "20ff3b18-7645-4d45-9b12-ca3dc474fae6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Regret Minimization",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9ad080ab-cbb4-4e8e-a4d5-c62b096a8eeb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\"When I'm 80, will I regret not trying this?\" — Bezos"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c8a5d781-5640-4915-8c4e-c8ab11ed4e15",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "10x Test",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "343e3518-a18d-44e1-957a-e55be752f8d6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "\"Is this 10x better than the alternative, or just 10% better?\""
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "38f6985f-fc14-4ea0-b38a-b9c2960b2828",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "10% better = incremental, competitors catch up"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b9e18904-35d7-4c82-872c-7fd22a15e4c3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "10x better = category shift, defensible"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "47618114-3a17-4452-b14f-e0caedeffd28",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Strategy"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "e9cd58a2-ae52-4546-a241-9a731af8f8b9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Jobs To Be Done",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "345fae2c-e00d-443b-b24e-6ea6129ac681",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "People don't buy products. They hire them to do a job."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "266cc72a-0611-4a88-a41f-150e66634999",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Functional job:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " What task does it accomplish?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f188630b-d77c-4256-b14d-f4f84393167b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Emotional job:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " How does it make them feel?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "eccbe3f3-9d8a-49e0-bea8-ccb1eda9ede5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Social job:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " How does it make them look to others?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "347ae9f0-4317-42ff-9dd7-ae56664f8666",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Eisenhower Matrix",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1c87c2da-ade0-4af4-903b-f71445bdc479",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Urgent Not Urgent"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0634cf08-bf0e-4149-85d0-07bd130df95c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Important",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " DO first SCHEDULE"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "16e70b38-f2bf-47cb-9e86-396be5ba287f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Not Important",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " DELEGATE DELETE"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "ba24a439-7282-49b6-9e63-e18d3ea9885d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Communication"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "460f6570-7b92-4719-848e-e1ffd3cb4ee5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Minto Pyramid",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d526bbf3-9dd4-4893-9f96-92a6c3baaf1c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Lead with the answer"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0f0c9db6-e552-465a-891e-98ba57342f39",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Group supporting arguments"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3ac8bc3f-908d-4f20-8dc6-4a48f596d44f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Order logically within each group"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8cfc5fae-6523-48fe-823e-9eb97278d4d2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Support with data at the bottom"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "✒️"
+    }
+  }
+}

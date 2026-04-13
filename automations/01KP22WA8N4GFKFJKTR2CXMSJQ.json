@@ -1,0 +1,81 @@
+{
+  "version": "2",
+  "flowTitle": "Inbox Triage",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "sender": {
+            "type": "string",
+            "description": "Input for sender"
+          },
+          "source": {
+            "type": "string",
+            "description": "Input for source"
+          },
+          "message": {
+            "type": "string",
+            "description": "Input for message"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "c1c1c1c1-0001-0001-0001-000000000001",
+      "valid": false,
+      "displayName": "Researcher — Classify Message",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "Classify the following incoming message into exactly ONE of these four categories:\n\n- SUPPORT TICKET — a user reporting a bug, issue, or needing help\n- SALES LEAD — a potential customer asking about pricing, features, or partnerships\n- INVESTOR INTRO — someone expressing interest in investing or requesting a meeting for funding\n- NOISE — spam, irrelevant, automated, or low-signal message\n\nRespond with:\nCATEGORY: [one of the four above]\nCONFIDENCE: [High / Medium / Low]\nREASON: [one sentence max]\n\nMessage:\n{{ trigger[\"body\"][\"message\"] }}\n\nSender: {{ trigger[\"body\"][\"sender\"] }}\nSource: {{ trigger[\"body\"][\"source\"] }}",
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01KP22WA8NDTKXX5K4NFZE32YC"
+          }
+        }
+      }
+    },
+    {
+      "name": "c2c2c2c2-0002-0002-0002-000000000002",
+      "valid": false,
+      "displayName": "Append to Company Context",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "content": "Inbox Triage — {{ trigger[\"body\"][\"sender\"] }} via {{ trigger[\"body\"][\"source\"] }}\n\n{{ c1c1c1c1-0001-0001-0001-000000000001[\"result\"] }}\n\n---\n\nOriginal message:\n{{ trigger[\"body\"][\"message\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "zWQheH5BoVPriUiE"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "01KP22WA8NDTKXX5K4NFZE32YC": {
+      "id": "01KP22WA8NDTKXX5K4NFZE32YC",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "zWQheH5BoVPriUiE": {
+      "id": "zWQheH5BoVPriUiE",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

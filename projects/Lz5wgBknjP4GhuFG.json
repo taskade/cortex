@@ -1,0 +1,519 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "2610cd92-ea78-4f62-91d8-df7dd49b2300",
+        "text": {
+          "ops": [
+            {
+              "insert": "Playbook — Pricing"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "8477955f-18f5-4515-b855-7cde27cd02c1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Pricing Change Framework"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "cc494fab-4e99-4390-b42c-8abeb56047ae",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Before Changing Price",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7342f5be-7d5b-488c-bf3e-9a70f37ee657",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "What metric moved?",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " (conversion, revenue, churn)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8d8cd6d2-0492-42be-99bd-e6384aa9ca5a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Is this a perception problem or a value problem?",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "383e4b9a-d8ef-4325-ba1c-43ce84c47c6f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "What do churned users say?",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ea89c8c0-71fa-425d-ada6-26db94fba3d1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "What do power users say they'd pay more for?",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d7814df8-1c13-4998-9847-37bf4ea49fa0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Price Change Decision Matrix",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d5cfe0ca-3247-4fa6-a9a2-8186608d59ba",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Signal Action Risk"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a0c4e880-9678-4a4c-b5c4-ec56dbef7246",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "High conversion, low revenue Raise price Churn spike"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "521603be-2aa5-4191-adec-0aacc736b9da",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Low conversion, high willingness Simplify tiers Complexity"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "265c3995-b044-4398-b9c7-10d55f63f0e3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Feature requests cluster Add tier Over-segmentation"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "69e13549-9139-481a-b091-7d6e8209702f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Competitor undercuts Add value, don't cut price Feature bloat"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bab6ad9e-d1e0-4fc9-821a-514f7b15cd5d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implementation Checklist",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "39d1ab22-2b9e-4f9d-b229-cd7a785f507a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Grandfather existing users? (Y/N, for how long?)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c6325b65-7bca-4ed8-880f-ff7578dd8a7f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "A/B test or hard switch?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "43af96f6-f8c8-446d-a9fc-387987ad839b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Billing system changes needed?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "632d22ac-a924-4814-a40b-3d592dbc6ca7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Comms plan for existing users"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bf1f25d6-610b-4c4d-a85b-05eccef3babf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FAQ for support team"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1ccc426c-ccec-4d08-880c-2a528063c4ad",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Monitor churn for 30 days post-change"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "📕"
+    }
+  }
+}
