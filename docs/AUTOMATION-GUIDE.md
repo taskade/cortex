@@ -69,4 +69,4 @@ Actions can reference trigger data and previous action outputs using template sy
 - Start simple: one trigger, one action. Add complexity only when needed.
 - Use webhooks for integrations; use cron for recurring internal processes.
 - Template variables (`{{trigger.*}}`) make flows reusable.
-- Start with `automations/_template.json` and build from there.
+- Start with `examples/automation-template.json` — copy it into `automations/` and build from there.

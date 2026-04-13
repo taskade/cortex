@@ -36,12 +36,7 @@ function listJsonFiles(dirName) {
 
   const files = fs
     .readdirSync(dirPath, { withFileTypes: true })
-    .filter(
-      (entry) =>
-        entry.isFile() &&
-        entry.name.endsWith(".json") &&
-        !entry.name.startsWith("_"),
-    )
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
     .map((entry) => path.join(dirPath, entry.name));
 
   if (files.length === 0) {

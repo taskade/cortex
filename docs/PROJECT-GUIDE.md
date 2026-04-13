@@ -57,5 +57,5 @@ Each project is a node tree in Taskade's internal format (taskast):
 
 - Keep project names descriptive — agents use them to decide relevance
 - Prefer many focused projects over one mega-document
-- Start with `projects/_template.json` and build from there
+- Start with `examples/project-template.json` — copy it into `projects/` and build from there
 - Use the avatar emoji to make projects visually scannable

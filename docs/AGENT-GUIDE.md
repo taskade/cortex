@@ -81,4 +81,4 @@ Agents can be connected to projects as knowledge sources via the `variables` and
 - One agent, one job. Don't make a Swiss Army knife.
 - Test your prompt by reading it aloud. If it's vague when spoken, it's vague to the model.
 - Commands should cover the agent's 2-4 most common use cases.
-- Start with `agents/_template.json` and modify from there.
+- Start with `examples/agent-template.json` — copy it into `agents/` and modify from there.

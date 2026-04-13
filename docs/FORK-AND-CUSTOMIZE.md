@@ -24,7 +24,7 @@ Each file in `agents/` is a standalone agent definition. To modify one:
 4. Change `name`, `avatar`, and `introduction`
 
 To add a new agent:
-1. Copy `agents/_template.json` to `agents/my-agent.json`
+1. Copy `examples/agent-template.json` to `agents/my-agent.json`
 2. Fill in all fields
 3. Run `npm run validate` to check
 
@@ -41,7 +41,7 @@ Projects in `projects/` are structured knowledge. To modify:
 3. Keep the root structure intact — one top-level child with nested content
 
 To add a new project:
-1. Copy `projects/_template.json`
+1. Copy `examples/project-template.json` into `projects/`
 2. Replace the title and content nodes
 3. Set a descriptive avatar emoji
 
@@ -91,6 +91,6 @@ After importing, you can continue editing in Taskade's UI. When you want to expo
 ## Tips
 
 - Start by changing one thing, importing, and verifying it works
-- The `_template.json` files are ignored by the assembler (files starting with `_` are skipped)
+- Template files live in `examples/` — they are not scanned by the importer
 - Validation runs in CI on every push — broken JSON will be caught automatically
 - See [GENESIS-101.md](GENESIS-101.md) to understand how the four layers connect

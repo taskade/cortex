@@ -80,7 +80,6 @@ cortex/
 ├── cortex.tsk                  One-click import bundle (generated)
 │
 ├── agents/                     Intelligence layer
-│   ├── _template.json          Blank template — copy to create your own
 │   ├── strategist.json
 │   ├── editor.json
 │   ├── researcher.json
@@ -88,7 +87,6 @@ cortex/
 │   └── builder.json
 │
 ├── projects/                   Memory layer
-│   ├── _template.json
 │   ├── company-context.json
 │   ├── decision-log.json
 │   ├── playbook-*.json         (5 playbooks)
@@ -96,7 +94,6 @@ cortex/
 │   └── welcome.json
 │
 ├── automations/                Reflexes layer
-│   ├── _template.json
 │   ├── daily-standup.json
 │   ├── decision-council.json
 │   ├── weekly-review.json
@@ -106,6 +103,11 @@ cortex/
 │
 ├── apps/
 │   └── cortex.json             Genesis app (React SPA)
+│
+├── examples/                   Blank templates for creating new artifacts
+│   ├── agent-template.json
+│   ├── project-template.json
+│   └── automation-template.json
 │
 ├── docs/                       Guides
 │   ├── GENESIS-101.md
@@ -127,8 +129,8 @@ cortex/
 
 Every JSON file is a standalone artifact. Swap any of them:
 
-- **Replace an agent** — copy `agents/_template.json`, write your persona prompt, delete the old one
-- **Add a project** — copy `projects/_template.json`, structure your content, save
+- **Replace an agent** — copy `examples/agent-template.json` into `agents/`, write your persona prompt, delete the old one
+- **Add a project** — copy `examples/project-template.json` into `projects/`, structure your content, save
 - **Modify a flow** — edit trigger/action pairs in `automations/*.json`
 - **Redesign the app** — edit the FileSystemTree in `apps/cortex.json`
 

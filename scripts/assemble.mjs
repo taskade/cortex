@@ -26,12 +26,7 @@ function listJsonFiles(dirName) {
 
   return fs
     .readdirSync(dirPath, { withFileTypes: true })
-    .filter(
-      (entry) =>
-        entry.isFile() &&
-        entry.name.endsWith(".json") &&
-        !entry.name.startsWith("_"),
-    )
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
     .map((entry) => path.join(dirPath, entry.name));
 }
 
