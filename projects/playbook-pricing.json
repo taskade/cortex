@@ -4,11 +4,11 @@
     "children": [
       {
         "type": "text",
-        "id": "3595fb78-6c5b-47ad-a8ab-87d99a01a739",
+        "id": "2610cd92-ea78-4f62-91d8-df7dd49b2300",
         "text": {
           "ops": [
             {
-              "insert": "Playbook — Hiring"
+              "insert": "Playbook — Pricing"
             },
             {
               "insert": "\n",
@@ -27,11 +27,11 @@
         "children": [
           {
             "type": "text",
-            "id": "4c5475a0-c268-4f31-a9f6-3efc23e1bc5e",
+            "id": "8477955f-18f5-4515-b855-7cde27cd02c1",
             "text": {
               "ops": [
                 {
-                  "insert": "Process Overview"
+                  "insert": "Pricing Change Framework"
                 },
                 {
                   "insert": "\n",
@@ -50,11 +50,44 @@
             "children": [
               {
                 "type": "text",
-                "id": "57974de6-fd64-4234-bedf-46b0e6423a71",
+                "id": "cc494fab-4e99-4390-b42c-8abeb56047ae",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Define role → 2. Source candidates → 3. Screen → 4. Interview → 5. Decide → 6. Offer → 7. Onboard"
+                      "insert": "Before Changing Price",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7342f5be-7d5b-488c-bf3e-9a70f37ee657",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "What metric moved?",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " (conversion, revenue, churn)"
                     },
                     {
                       "insert": "\n",
@@ -71,39 +104,14 @@
                 "collapsed": false,
                 "completed": false,
                 "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "fed1c71e-ca4a-4c66-aec8-b27d8da9e4e4",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Role Definition Template"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
+              },
               {
                 "type": "text",
-                "id": "1d7dabcc-a84f-4498-81c3-f2e478a523d4",
+                "id": "8d8cd6d2-0492-42be-99bd-e6384aa9ca5a",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Title:",
+                      "insert": "Is this a perception problem or a value problem?",
                       "attributes": {
                         "bold": true
                       }
@@ -117,8 +125,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "number",
+                  "children": "number"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -126,11 +134,11 @@
               },
               {
                 "type": "text",
-                "id": "a9dac8f3-1230-4598-9046-c3bd3cc5b755",
+                "id": "383e4b9a-d8ef-4325-ba1c-43ce84c47c6f",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Reports to:",
+                      "insert": "What do churned users say?",
                       "attributes": {
                         "bold": true
                       }
@@ -144,8 +152,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "number",
+                  "children": "number"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -153,17 +161,14 @@
               },
               {
                 "type": "text",
-                "id": "3079e010-acbc-47fa-875b-a3202d08538b",
+                "id": "ea89c8c0-71fa-425d-ada6-26db94fba3d1",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Why now:",
+                      "insert": "What do power users say they'd pay more for?",
                       "attributes": {
                         "bold": true
                       }
-                    },
-                    {
-                      "insert": " What changed that makes this role necessary?"
                     },
                     {
                       "insert": "\n",
@@ -174,8 +179,8 @@
                   ]
                 },
                 "format": {
-                  "node": "bullet",
-                  "children": "bullet"
+                  "node": "number",
+                  "children": "number"
                 },
                 "collapsed": false,
                 "completed": false,
@@ -183,156 +188,14 @@
               },
               {
                 "type": "text",
-                "id": "2cccab49-a6f7-472c-86e6-39455c045fc6",
+                "id": "d7814df8-1c13-4998-9847-37bf4ea49fa0",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Success in 90 days:",
+                      "insert": "Price Change Decision Matrix",
                       "attributes": {
                         "bold": true
                       }
-                    },
-                    {
-                      "insert": " What will this person have shipped?"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "12b0b161-0441-4b53-a2b6-6a0cd27b172c",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Must-haves:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [3 non-negotiable skills]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "d0b789be-4bfd-467d-b48f-cbc0a2882d3c",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Nice-to-haves:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [3 bonus skills]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "9ca4094f-0f81-4040-84fc-5e8556054fa8",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Anti-patterns:",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " [3 red flags in candidates]"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "bullet",
-                  "children": "bullet"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "8d0c4595-d5d2-45cd-9d95-bd8e30037df8",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Interview Structure"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
-              {
-                "type": "text",
-                "id": "23cf944f-c862-4831-84ba-ba2f3d3503ef",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Round Duration Focus Interviewer"
                     },
                     {
                       "insert": "\n",
@@ -352,11 +215,11 @@
               },
               {
                 "type": "text",
-                "id": "f5b463f2-7970-4d02-b013-167309e37f9f",
+                "id": "d5cfe0ca-3247-4fa6-a9a2-8186608d59ba",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Screen 30 min Culture + motivation Hiring manager"
+                      "insert": "Signal Action Risk"
                     },
                     {
                       "insert": "\n",
@@ -376,11 +239,11 @@
               },
               {
                 "type": "text",
-                "id": "2d7ffed1-6b41-45c4-a27d-e3dbd79ee84b",
+                "id": "a0c4e880-9678-4a4c-b5c4-ec56dbef7246",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Technical 60 min Skills + problem solving Team lead"
+                      "insert": "High conversion, low revenue Raise price Churn spike"
                     },
                     {
                       "insert": "\n",
@@ -400,11 +263,11 @@
               },
               {
                 "type": "text",
-                "id": "a9f483b9-80e2-48a5-8e76-e76b4097d7e9",
+                "id": "521603be-2aa5-4191-adec-0aacc736b9da",
                 "text": {
                   "ops": [
                     {
-                      "insert": "System design 45 min Architecture thinking Senior engineer"
+                      "insert": "Low conversion, high willingness Simplify tiers Complexity"
                     },
                     {
                       "insert": "\n",
@@ -424,11 +287,11 @@
               },
               {
                 "type": "text",
-                "id": "8ffda003-4cd4-4924-a903-77598309c083",
+                "id": "265c3995-b044-4398-b9c7-10d55f63f0e3",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Final 30 min Values + questions Founder"
+                      "insert": "Feature requests cluster Add tier Over-segmentation"
                     },
                     {
                       "insert": "\n",
@@ -445,39 +308,65 @@
                 "collapsed": false,
                 "completed": false,
                 "children": []
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "id": "0f25489a-3d6d-402b-9891-3fb7b879a37d",
-            "text": {
-              "ops": [
-                {
-                  "insert": "Evaluation Criteria"
-                },
-                {
-                  "insert": "\n",
-                  "attributes": {
-                    "paragraph": true
-                  }
-                }
-              ]
-            },
-            "format": {
-              "node": "h2",
-              "children": "text"
-            },
-            "collapsed": false,
-            "completed": false,
-            "children": [
+              },
               {
                 "type": "text",
-                "id": "94c28278-3fb3-4fa7-86d6-2eb5bf5b689c",
+                "id": "69e13549-9139-481a-b091-7d6e8209702f",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Can they do the job? (skills)"
+                      "insert": "Competitor undercuts Add value, don't cut price Feature bloat"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bab6ad9e-d1e0-4fc9-821a-514f7b15cd5d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Implementation Checklist",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "39d1ab22-2b9e-4f9d-b229-cd7a785f507a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Grandfather existing users? (Y/N, for how long?)"
                     },
                     {
                       "insert": "\n",
@@ -497,11 +386,11 @@
               },
               {
                 "type": "text",
-                "id": "a7e55fcb-1b60-4207-8578-766c5775eb67",
+                "id": "c6325b65-7bca-4ed8-880f-ff7578dd8a7f",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Will they do the job? (motivation)"
+                      "insert": "A/B test or hard switch?"
                     },
                     {
                       "insert": "\n",
@@ -521,11 +410,11 @@
               },
               {
                 "type": "text",
-                "id": "7a84748b-48ea-4695-af1a-3a5b89b2e1f3",
+                "id": "43af96f6-f8c8-446d-a9fc-387987ad839b",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Can we work with them? (culture)"
+                      "insert": "Billing system changes needed?"
                     },
                     {
                       "insert": "\n",
@@ -545,11 +434,59 @@
               },
               {
                 "type": "text",
-                "id": "85cdc1c3-2302-47fd-9f1a-bdb688650496",
+                "id": "632d22ac-a924-4814-a40b-3d592dbc6ca7",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Will they raise the bar? (growth potential)"
+                      "insert": "Comms plan for existing users"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bf1f25d6-610b-4c4d-a85b-05eccef3babf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FAQ for support team"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1ccc426c-ccec-4d08-880c-2a528063c4ad",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Monitor churn for 30 days post-change"
                     },
                     {
                       "insert": "\n",
@@ -576,7 +513,7 @@
   "preferences": {
     "avatar": {
       "type": "emoji",
-      "value": "📓"
+      "value": "🖇️"
     }
   }
 }

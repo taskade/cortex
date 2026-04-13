@@ -60,7 +60,7 @@
           "input": "We have an active incident. Spec the next 4 hours of response.\n\nSEVERITY: {{ trigger[\"body\"][\"severity\"] }}\nSUMMARY: {{ trigger[\"body\"][\"summary\"] }}\nAFFECTED SYSTEMS: {{ trigger[\"body\"][\"affected_systems\"] }}\nOWNER: {{ trigger[\"body\"][\"owner\"] }}\n\nDeliver:\n1. Immediate actions (first 15 min)\n2. Investigation sequence (next 45 min)\n3. Mitigation steps (next 60 min)\n4. Communication cadence (who, what, when)\n5. Definition of resolved\n6. Top 2 risks that could make this worse\n\nBe precise. Use verbs. No hedging.",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP22WA8NVMYWZ85XHAVP0RG4"
+            "id": "01KP2MV4A0283A4MZMMMJ8WC61"
           }
         }
       }
@@ -79,21 +79,21 @@
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "aSs5trhjYStYSydc"
+            "id": "HihBURwSkvDn1KiC"
           }
         }
       }
     }
   ],
   "variables": {
-    "01KP22WA8NVMYWZ85XHAVP0RG4": {
-      "id": "01KP22WA8NVMYWZ85XHAVP0RG4",
+    "builder": {
+      "id": "builder",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "aSs5trhjYStYSydc": {
-      "id": "aSs5trhjYStYSydc",
+    "decision-log": {
+      "id": "decision-log",
       "rank": "k",
       "type": "string",
       "format": "taskade-project-id"

@@ -32,15 +32,15 @@
     "type": "emoji"
   },
   "variables": {
-    "zWQheH5BoVPriUiE": {
-      "id": "zWQheH5BoVPriUiE",
+    "company-context": {
+      "id": "company-context",
       "rank": "V",
       "type": "string"
     }
   },
   "addToKnowledgeProjectVariables": [
     {
-      "id": "zWQheH5BoVPriUiE",
+      "id": "company-context",
       "type": "agent-template-variable-input-type"
     }
   ]

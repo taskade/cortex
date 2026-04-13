@@ -4,11 +4,11 @@
     "children": [
       {
         "type": "text",
-        "id": "2610cd92-ea78-4f62-91d8-df7dd49b2300",
+        "id": "f1159fde-8dbf-43b1-ad49-43f8e1e159ac",
         "text": {
           "ops": [
             {
-              "insert": "Playbook — Pricing"
+              "insert": "Library — References"
             },
             {
               "insert": "\n",
@@ -27,11 +27,11 @@
         "children": [
           {
             "type": "text",
-            "id": "8477955f-18f5-4515-b855-7cde27cd02c1",
+            "id": "7b445805-f8d1-4efc-907d-e267e645407b",
             "text": {
               "ops": [
                 {
-                  "insert": "Pricing Change Framework"
+                  "insert": "Essential Reading"
                 },
                 {
                   "insert": "\n",
@@ -50,323 +50,11 @@
             "children": [
               {
                 "type": "text",
-                "id": "cc494fab-4e99-4390-b42c-8abeb56047ae",
+                "id": "2bdf7def-a070-43e2-95a4-0a76517447ab",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Before Changing Price",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "7342f5be-7d5b-488c-bf3e-9a70f37ee657",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "What metric moved?",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": " (conversion, revenue, churn)"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "number",
-                  "children": "number"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "8d8cd6d2-0492-42be-99bd-e6384aa9ca5a",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Is this a perception problem or a value problem?",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "number",
-                  "children": "number"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "383e4b9a-d8ef-4325-ba1c-43ce84c47c6f",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "What do churned users say?",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "number",
-                  "children": "number"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "ea89c8c0-71fa-425d-ada6-26db94fba3d1",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "What do power users say they'd pay more for?",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "number",
-                  "children": "number"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "d7814df8-1c13-4998-9847-37bf4ea49fa0",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Price Change Decision Matrix",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "d5cfe0ca-3247-4fa6-a9a2-8186608d59ba",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Signal Action Risk"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "a0c4e880-9678-4a4c-b5c4-ec56dbef7246",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "High conversion, low revenue Raise price Churn spike"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "521603be-2aa5-4191-adec-0aacc736b9da",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Low conversion, high willingness Simplify tiers Complexity"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "265c3995-b044-4398-b9c7-10d55f63f0e3",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Feature requests cluster Add tier Over-segmentation"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "69e13549-9139-481a-b091-7d6e8209702f",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Competitor undercuts Add value, don't cut price Feature bloat"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "bab6ad9e-d1e0-4fc9-821a-514f7b15cd5d",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Implementation Checklist",
-                      "attributes": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "text",
-                  "children": "text"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "39d1ab22-2b9e-4f9d-b229-cd7a785f507a",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Grandfather existing users? (Y/N, for how long?)"
+                      "insert": "\"The Mom Test\" — Rob Fitzpatrick (customer interviews)"
                     },
                     {
                       "insert": "\n",
@@ -386,11 +74,11 @@
               },
               {
                 "type": "text",
-                "id": "c6325b65-7bca-4ed8-880f-ff7578dd8a7f",
+                "id": "2c994a35-c3eb-4365-8bbd-f01a89a260dd",
                 "text": {
                   "ops": [
                     {
-                      "insert": "A/B test or hard switch?"
+                      "insert": "\"Obviously Awesome\" — April Dunford (positioning)"
                     },
                     {
                       "insert": "\n",
@@ -410,11 +98,11 @@
               },
               {
                 "type": "text",
-                "id": "43af96f6-f8c8-446d-a9fc-387987ad839b",
+                "id": "36b0f2fe-470b-4e5e-ae48-d4ce786d59b6",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Billing system changes needed?"
+                      "insert": "\"Working Backwards\" — Colin Bryar (Amazon's process)"
                     },
                     {
                       "insert": "\n",
@@ -434,11 +122,11 @@
               },
               {
                 "type": "text",
-                "id": "632d22ac-a924-4814-a40b-3d592dbc6ca7",
+                "id": "82b4aa47-7fdf-4ab1-9eec-737c5f3693e0",
                 "text": {
                   "ops": [
                     {
-                      "insert": "Comms plan for existing users"
+                      "insert": "\"High Output Management\" — Andy Grove (management)"
                     },
                     {
                       "insert": "\n",
@@ -458,35 +146,11 @@
               },
               {
                 "type": "text",
-                "id": "bf1f25d6-610b-4c4d-a85b-05eccef3babf",
+                "id": "f6de14eb-3094-4896-938b-387a39e473d6",
                 "text": {
                   "ops": [
                     {
-                      "insert": "FAQ for support team"
-                    },
-                    {
-                      "insert": "\n",
-                      "attributes": {
-                        "paragraph": true
-                      }
-                    }
-                  ]
-                },
-                "format": {
-                  "node": "checkbox",
-                  "children": "checkbox"
-                },
-                "collapsed": false,
-                "completed": false,
-                "children": []
-              },
-              {
-                "type": "text",
-                "id": "1ccc426c-ccec-4d08-880c-2a528063c4ad",
-                "text": {
-                  "ops": [
-                    {
-                      "insert": "Monitor churn for 30 days post-change"
+                      "insert": "\"The Hard Thing About Hard Things\" — Ben Horowitz (startup reality)"
                     },
                     {
                       "insert": "\n",
@@ -505,6 +169,453 @@
                 "children": []
               }
             ]
+          },
+          {
+            "type": "text",
+            "id": "fc9653a3-b693-4d0b-93bd-22d1fb862df2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Canonical Blog Posts"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "9dfea986-bd37-4ec3-bc99-df0c0ab61a40",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Paul Graham: \"Do Things That Don't Scale\" — "
+                    },
+                    {
+                      "insert": "http://paulgraham.com/ds.html",
+                      "attributes": {
+                        "link": "http://paulgraham.com/ds.html"
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5b4b955b-8427-411e-8d28-973716486537",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Marc Andreessen: \"Product-Market Fit\" — pmarchive.com"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "14bfdaaa-de68-47fc-a4cc-cf9b5ff1fea2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Brian Chesky: \"7-Star Experience\" — Masters of Scale"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a572164a-6867-4f46-92a6-a58416b06f4d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Tools & Resources"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "2c94f614-8c94-4f41-b4ca-64c15104aeaf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Category Tool Use Case"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e73e6f54-1215-448c-ab52-5090f058ee4e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Analytics Mixpanel Product analytics"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9a414cb1-c511-4097-9229-5a2d157d0906",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Support Zendesk Ticket management"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f730022d-efe7-4aa2-a8a3-a52fb39a928f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Design Figma UI/UX design"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e2294c09-3182-436c-bf21-0ae528f387ae",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Docs Notion/Taskade Internal docs"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "40a6aa88-49d8-442c-a3e7-d350898c4bd0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CI/CD GitHub Actions Deployment"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "8b7aa663-65c8-41dd-b0b7-67dbe8977c60",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Key Metrics Definitions"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "609244e4-6d49-4328-9422-a13812add216",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MRR:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " Monthly Recurring Revenue (excluding one-time charges)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "733fb126-ee6c-4757-9f0b-6639f9fc0a0f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Churn Rate:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " % of customers lost per month"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "51be63c3-6ba8-4596-a3e3-29b2ab9eca42",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CAC:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " Cost to Acquire a Customer (total sales+marketing / new customers)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5d51f717-bde7-4783-ab7c-c6384c2912f1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "LTV:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " Lifetime Value (average revenue per customer x average lifespan)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "048cfc26-e66f-4caf-b6b5-76a22de0077d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "NPS:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " Net Promoter Score (-100 to 100)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
           }
         ]
       }
@@ -513,7 +624,7 @@
   "preferences": {
     "avatar": {
       "type": "emoji",
-      "value": "📕"
+      "value": "🖥️"
     }
   }
 }
