@@ -1,0 +1,80 @@
+{
+  "version": "2",
+  "flowTitle": "Incident Response",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "owner": {
+            "type": "string",
+            "description": "Input for owner"
+          },
+          "summary": {
+            "type": "string",
+            "description": "Input for summary"
+          },
+          "severity": {
+            "type": "string",
+            "anyOf": [
+              {
+                "const": "P0",
+                "title": "P0 — Critical (system down)"
+              },
+              {
+                "const": "P1",
+                "title": "P1 — High (major feature broken)"
+              },
+              {
+                "const": "P2",
+                "title": "P2 — Medium (degraded performance)"
+              },
+              {
+                "const": "P3",
+                "title": "P3 — Low (minor issue)"
+              }
+            ]
+          },
+          "affected_systems": {
+            "type": "string",
+            "description": "Input for affected_systems"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "d1d1d1d1-0001-0001-0001-000000000001",
+      "valid": false,
+      "displayName": "Builder — Spec the Response Plan",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "We have an active incident. Spec the next 4 hours of response.\n\nSEVERITY: {{ trigger[\"body\"][\"severity\"] }}\nSUMMARY: {{ trigger[\"body\"][\"summary\"] }}\nAFFECTED SYSTEMS: {{ trigger[\"body\"][\"affected_systems\"] }}\nOWNER: {{ trigger[\"body\"][\"owner\"] }}\n\nDeliver:\n1. Immediate actions (first 15 min)\n2. Investigation sequence (next 45 min)\n3. Mitigation steps (next 60 min)\n4. Communication cadence (who, what, when)\n5. Definition of resolved\n6. Top 2 risks that could make this worse\n\nBe precise. Use verbs. No hedging."
+        }
+      }
+    },
+    {
+      "name": "d2d2d2d2-0002-0002-0002-000000000002",
+      "valid": false,
+      "displayName": "Append War Room to Decision Log",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "content": "🚨 WAR ROOM — {{ trigger[\"body\"][\"severity\"] }}\n\nSummary: {{ trigger[\"body\"][\"summary\"] }}\nAffected: {{ trigger[\"body\"][\"affected_systems\"] }}\nOwner: {{ trigger[\"body\"][\"owner\"] }}\n\n---\n\n## Response Plan\n\n{{ d1d1d1d1-0001-0001-0001-000000000001[\"result\"] }}",
+          "position": "beforeend"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "version": "2",
+  "flowTitle": "Weekly Review",
+  "trigger": {
+    "valid": false,
+    "displayName": "Every Friday at 6PM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "BLANK",
+      "triggerName": "schedule.weekly",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "b1b1b1b1-0001-0001-0001-000000000001",
+      "valid": false,
+      "displayName": "Editor — Cut 30%",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "Summarize this week's decisions from the Decision Log in exactly 10 bullets. Cut everything that isn't a concrete decision, number, name, or outcome. Be ruthless."
+        }
+      }
+    },
+    {
+      "name": "b2b2b2b2-0002-0002-0002-000000000002",
+      "valid": false,
+      "displayName": "Strategist — Stress Test the Plan",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "input": "Stress test next week's plan. Identify the three most likely points of failure, the hidden assumptions, and the conditions under which the plan breaks down completely."
+        }
+      }
+    },
+    {
+      "name": "b3b3b3b3-0003-0003-0003-000000000003",
+      "valid": false,
+      "displayName": "Append Weekly Review to Decision Log",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "content": "Weekly Review — {{ trigger[\"triggerTime\"] }}\n\n---\n\n## ✂️ Editor: Week in 10 Bullets\n{{ b1b1b1b1-0001-0001-0001-000000000001[\"result\"] }}\n\n---\n\n## 🧭 Strategist: Stress Test Next Week\n{{ b2b2b2b2-0002-0002-0002-000000000002[\"result\"] }}",
+          "position": "beforeend"
+        }
+      }
+    }
+  ]
+}

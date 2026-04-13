@@ -1,0 +1,731 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "43eac57e-ef23-4833-9412-a3a7295f1b7e",
+        "text": {
+          "ops": [
+            {
+              "insert": "Company Context"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "a3ba0811-9747-48c9-8b9c-83450ec800a3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Mission"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "15d90cb1-4f20-4412-b386-7fdc9052839f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Define your company's mission here. What problem do you solve? For whom?",
+                      "attributes": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ce99aa06-5cdf-4e78-be16-bb45a9fb8247",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "One-liner:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [Your company] helps [target audience] to [outcome] by [method]."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7815d4bb-ac8b-4cdd-9572-e5a2ca701c86",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "North star metric:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [The single number that measures success]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "4127ba58-53df-4dd0-920e-189a4df98bc9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Customers"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "03fa8805-20d5-4c52-abbb-a7901ce32c26",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Primary persona:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [Who buys? Job title, company size, pain points]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e08109d3-984f-4f46-9c7e-ae251086296f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Secondary persona:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [Who else uses the product?]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5bb434d3-7029-4c52-b129-0f8ddf914b53",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Anti-persona:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [Who is NOT your customer? Why?]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "819b8422-a338-4a24-b2ac-b38f3add5142",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Product"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "262f55f4-11fd-49c1-8aaf-4c2dc789b207",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Core value prop:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [What do you do better than anyone else?]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1e40aeb3-39c8-48ce-8229-c613c190a07b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Key features:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [Top 3 features that matter]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bc9fcaca-ff43-4127-91d5-d1720eefbe74",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Tech stack:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [What powers the product]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "28313cf5-dd0b-4150-9c79-dd591672963a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Competitors"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "61a4c45e-d2ad-4f90-8523-9cbdeeb94525",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Competitor Their Strength Our Advantage"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c8a8dee8-2633-4b89-b55c-7e3b6ee46c0f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Competitor A",
+                      "attributes": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Their moat",
+                      "attributes": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Why we win",
+                      "attributes": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "342c801e-8221-4abc-83a7-1efa2dc84799",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Competitor B",
+                      "attributes": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Their moat",
+                      "attributes": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Why we win",
+                      "attributes": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "1d3f5a9c-a343-40b5-b77e-9a01a8215e3a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Voice & Tone"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "4b491d3c-0d88-47d8-95ec-2d0a31d0bdd2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "We sound like:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [Direct, warm, technical, casual?]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5f9194d4-d68f-46c8-9189-ff468411024a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "We never sound like:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [Corporate jargon, overly casual?]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3123cf18-d03e-4102-b63f-7fcf5a5f161c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Writing rules:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [Max sentence length? Avoid passive voice?]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "569b44dc-4298-4874-9be0-b212c9af0e72",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Non-Goals"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "b4827331-4ec2-419b-bb5a-eecd1ed43ef5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Things we explicitly do NOT do"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b9a22e2b-66b6-4852-9f9f-6f6af9e859ea",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Markets we do NOT serve"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5b054f02-1a1d-479d-85e5-1385885c5fa2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Features we will NOT build this year"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "💪"
+    }
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "3595fb78-6c5b-47ad-a8ab-87d99a01a739",
+        "text": {
+          "ops": [
+            {
+              "insert": "Playbook — Hiring"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "4c5475a0-c268-4f31-a9f6-3efc23e1bc5e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Process Overview"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "57974de6-fd64-4234-bedf-46b0e6423a71",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Define role → 2. Source candidates → 3. Screen → 4. Interview → 5. Decide → 6. Offer → 7. Onboard"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "fed1c71e-ca4a-4c66-aec8-b27d8da9e4e4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Role Definition Template"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "1d7dabcc-a84f-4498-81c3-f2e478a523d4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Title:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a9dac8f3-1230-4598-9046-c3bd3cc5b755",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Reports to:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3079e010-acbc-47fa-875b-a3202d08538b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Why now:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " What changed that makes this role necessary?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2cccab49-a6f7-472c-86e6-39455c045fc6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Success in 90 days:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " What will this person have shipped?"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "12b0b161-0441-4b53-a2b6-6a0cd27b172c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Must-haves:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [3 non-negotiable skills]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d0b789be-4bfd-467d-b48f-cbc0a2882d3c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Nice-to-haves:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [3 bonus skills]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9ca4094f-0f81-4040-84fc-5e8556054fa8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Anti-patterns:",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " [3 red flags in candidates]"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "8d0c4595-d5d2-45cd-9d95-bd8e30037df8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Interview Structure"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "23cf944f-c862-4831-84ba-ba2f3d3503ef",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Round Duration Focus Interviewer"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f5b463f2-7970-4d02-b013-167309e37f9f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Screen 30 min Culture + motivation Hiring manager"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2d7ffed1-6b41-45c4-a27d-e3dbd79ee84b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Technical 60 min Skills + problem solving Team lead"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a9f483b9-80e2-48a5-8e76-e76b4097d7e9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "System design 45 min Architecture thinking Senior engineer"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8ffda003-4cd4-4924-a903-77598309c083",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Final 30 min Values + questions Founder"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "0f25489a-3d6d-402b-9891-3fb7b879a37d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Evaluation Criteria"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "94c28278-3fb3-4fa7-86d6-2eb5bf5b689c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Can they do the job? (skills)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a7e55fcb-1b60-4207-8578-766c5775eb67",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Will they do the job? (motivation)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7a84748b-48ea-4695-af1a-3a5b89b2e1f3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Can we work with them? (culture)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "85cdc1c3-2302-47fd-9f1a-bdb688650496",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Will they raise the bar? (growth potential)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "📒"
+    }
+  }
+}

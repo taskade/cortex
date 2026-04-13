@@ -1,0 +1,865 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "8b0e4e9d-7f07-4dba-aa93-5c65d6270051",
+        "text": {
+          "ops": [
+            {
+              "insert": "Welcome to Cortex"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "ece8440d-4286-4528-bad2-35660159f409",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Cortex is your AI-powered starter brain. It comes pre-loaded with everything you need to run a company, make decisions, and ship products — powered by 5 AI agents, 10 projects, 6 automations, and a dashboard app."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "17248ede-21c1-42d3-9578-641693b243e5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Your 5 Agents"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "abd892f3-cd9e-445d-946d-3217ab46bc33",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "♟ "
+                    },
+                    {
+                      "insert": "Strategist",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Think in tradeoffs, answer in options. Use for major decisions."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "189c8383-d8ad-4725-9750-bd27f134b518",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "✂ "
+                    },
+                    {
+                      "insert": "Editor",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Cut 30%, keep the nerve. Paste any writing and get it tightened."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c2bd7a96-35e1-48b7-a257-33d77b0c06c7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "🔍 "
+                    },
+                    {
+                      "insert": "Researcher",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Find primary sources, cite everything. Verify claims and investigate topics."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5d31999a-9249-4f2c-b122-cc827fa3f8b7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "⚖ "
+                    },
+                    {
+                      "insert": "Critic",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Argue against whatever you just said. Stress-test plans and assumptions."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e41eb1f4-6130-4db3-be95-43f0241ec85b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "🛠 "
+                    },
+                    {
+                      "insert": "Builder",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Spec it, scope it, ship it. Turn ideas into executable specs."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "e48460e5-dee5-48af-a1e9-14fb1835b605",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Your 10 Projects (Memory)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "60e75d1d-eeb2-4e8b-b617-430ebb1e6423",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Company Context",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Who you are, what you sell, how you talk. Every agent reads this."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dc9b9c6a-121e-4478-b4c3-dfeb9d3c6e59",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Decision Log",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Every major call, reasoning, and outcome. Your institutional memory."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "edc3275f-f9a1-47f1-9400-14cb17c5f5e6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "5 Playbooks",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Hiring, Launch, Pricing, Fundraise, Support. Step-by-step processes."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "820f253d-5b41-4986-bd55-c2246adb30eb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2 Libraries",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Frameworks (mental models) and References (links, books, resources)."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3446ce53-81d6-4a2e-ad49-a6605d86b31b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "This Welcome Guide",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — You're reading it now."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f5e44e74-3c13-40da-ab76-2379886fec46",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Your 6 Automations (Reflexes)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "66c7ebc5-853a-4608-8354-fee4ad776aaf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Daily Standup",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Every weekday at 9am, Builder reviews tasks and suggests priorities."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f6bc2b30-5921-4e0f-9228-0d024725bf1c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Decision Council",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Trigger it to have Strategist, Critic, and Researcher debate a decision."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5dff91ec-c017-466b-a462-87d9d7f2cd8b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Weekly Review",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Every Friday, score the week and plan the next one."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0ac7ba72-36b5-4664-b373-69bfb1bc9148",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Inbox Triage",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Classify incoming items and route to the right agent."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "262d5f56-1616-495e-a1b2-26239625e394",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Incident Response",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Assemble a response team and create a war room."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7c775130-98d2-45dd-baf8-eb0ea1b2e6d8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Monday Planning",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " — Every Monday, review goals and seed the week."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f4a1545e-08a0-4f2e-a622-4dc0fc244037",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Getting Started"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "57a03f38-87f0-4442-a5a1-138120f14190",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Open "
+                    },
+                    {
+                      "insert": "Company Context",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " and fill in your company's details"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3137a9e3-400d-4d15-96f4-04211a3e4205",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Try the "
+                    },
+                    {
+                      "insert": "Strategist",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " agent — ask it to counsel you on a real decision"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "65e74018-db77-4b6d-99e2-a5d18bcc0726",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Trigger the "
+                    },
+                    {
+                      "insert": "Decision Council",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " automation with an example decision"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f2c9e52d-7de3-4f6d-b266-91da7163b60c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Open the "
+                    },
+                    {
+                      "insert": "Dashboard",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " app to see everything connected"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "number",
+                  "children": "number"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "ea56a8d9-d5c2-4564-8f68-d0d122f3a073",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Customize It"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "1980dc45-cb72-492a-855b-a771ee352a3f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Cortex is a starting point, not a final product. Fork it, rename agents, rewrite playbooks, add your own automations. The structure stays the same — Memory + Intelligence + Reflexes + Interface — but the content becomes yours."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e5b20b93-5d00-49ea-b0fd-9ae5321312da",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Built with Taskade Genesis. Fork this at github.com/taskade/cortex.",
+                      "attributes": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "📏"
+    }
+  }
+}

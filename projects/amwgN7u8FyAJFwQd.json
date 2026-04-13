@@ -1,0 +1,569 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "91c4061d-68ca-417b-8ce8-78edfe3bb2ed",
+        "text": {
+          "ops": [
+            {
+              "insert": "Playbook — Launch"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "ddba096e-0de8-4513-b2b3-23046fc572e7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Pre-Launch Checklist (T-14 days)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "8b332eaf-d07c-4732-a857-24373e0f6a29",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Feature complete and QA'd"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "4e9a50ed-89fa-4759-a7a4-622add2dccfe",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Staging tested by 3+ team members"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4414c9f-0680-42a2-8695-aee90c350cd9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Docs/help articles updated"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "71247c3e-f64a-4d6a-93c0-deed4c864215",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Changelog entry drafted"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a266c927-15c1-4192-8ad1-9808ed86085c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Social media posts scheduled"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "af628126-efb0-42f5-ad73-7b945a7bf149",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Email announcement drafted"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bd93efde-ecc7-41c5-bf64-cf75f80b779a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Internal team briefed"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "e77dfafa-e829-4636-a1b0-8d4828c3c4b8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Launch Day Checklist (T-0)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "837fa6fe-280b-4555-8334-04065a626fc7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Deploy to production"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9775484e-8922-477e-b415-c40b7db3833a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Smoke test core flows"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7717b4c2-7182-4928-9f9f-ecc39ab084f5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Publish changelog"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7f2febff-078e-4bfe-88e6-ac5c665b5996",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Send email announcement"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "66cdb344-33aa-4c1b-9ea8-19e5cc74703f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Post on social media"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "285ade4d-104e-431a-86d9-0205d38943b2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Monitor error rates (Sentry)"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8fb322eb-1edd-45ee-af0a-61e1255d69b1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Monitor support inbox"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "19b95767-a820-4855-ab39-79f2d935e7a7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Post-Launch (T+7)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a0b69212-4659-43fd-a6a7-8db1e667141d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Review metrics vs. targets"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e39c453c-2050-43d1-ad78-b1e491eab5e5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Collect user feedback"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a7a98bb3-d83c-4016-84f2-f80ab97cf038",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Triage bugs filed"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e1adfaf4-3982-46e5-9358-26682b031bf8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Write retrospective"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c996678c-88f4-4d4b-9bf5-552fd697952d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Plan iteration based on feedback"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": "checkbox"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "💌"
+    }
+  }
+}
