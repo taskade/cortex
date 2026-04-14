@@ -1,0 +1,1536 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "7e127c59-6d8e-466e-8df1-466e3a4804e3",
+        "text": {
+          "ops": [
+            {
+              "insert": "Response Plans"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "f7e9574c-4ee8-430f-a0d2-eaba361793ac",
+            "text": {
+              "ops": [
+                {
+                  "insert": "🚨 WAR ROOM — SEV-2"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1f22e696-7de0-4c64-862e-016643062460",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d418eacf-b55d-4694-8485-3c657ba949f6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Summary: Stored-card charges failing at checkout for ~40% of pre-orders during the Monday morning rush. ~1,200 failed transactions in the first 30 minutes. Error rate climbing."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "15fa9696-9659-4c29-8cd5-be2aa26b5c0a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Affected: brew-pay service, Stripe webhook handler, iOS/Android checkout flow"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e512fb9f-0a39-415f-ab74-6bde5d3ecadb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Owner: Jamie Ortiz (Platform on-call)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "cecff961-9a71-45f4-b41a-0bfd18531747",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b8c49e61-84dd-4c30-96d5-596c330e1ed0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "---"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1bb6a91d-cb09-4c16-a5d0-57a5594f5d19",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2dbaf7c2-a946-4708-95a7-e4250495449c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "## Response Plan"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e2ecc430-fee8-413f-86e3-cd6d7f2d7f74",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "22b1c657-2847-4997-90fd-d993e3161613",
+            "text": {
+              "ops": [
+                {
+                  "insert": "### 1. Immediate Actions — T+0 to T+15"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "47488699-f28a-4b9e-8e6c-bc8f9ad10f3d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Acknowledge PagerDuty alert. Confirm Jamie on-channel within 2 minutes."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "5c3ceb6e-88ff-486d-9d0d-54b8661500f9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Open Slack #warroom-20260413-brewpay. Pin the incident doc and this plan."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e80f69fd-9836-4b26-956a-39de9c8e8765",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Flip `payment_v3_rollout` flag from 100 → 0 in LaunchDarkly. Revert to last stable checkout path."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "441c83c2-8195-4540-ab73-1a45061a98ea",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Push in-app banner on checkout screen: \"Payments temporarily unavailable — retry in a few minutes.\""
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "54ce6058-4bef-4ff3-b19f-a9a95c6444cd",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Snapshot the last 500 failed transactions to s3://brew-incident-dumps/2026-04-13/. Preserve evidence before logs rotate."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "852dd6a4-a689-4c7f-b682-111ac2573e16",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- DM Sarah Kim (Comms) privately. Do not post publicly until T+15."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "37ed624d-a67a-4535-acab-05c0b9f8d5f6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Freeze all non-emergency deploys. Notify #eng-deploys."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8faec3c7-4a62-4318-90d9-4117072d27e0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "5266ccf9-b233-4fd5-b6a9-315aac23d6df",
+            "text": {
+              "ops": [
+                {
+                  "insert": "### 2. Investigation Sequence — T+15 to T+60"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "02015213-c6bc-4966-a201-0fabfca1e971",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Pull Stripe dashboard. Capture error code distribution, start timestamp, geographic pattern."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "93766e2b-e174-4147-a828-25ab99da3745",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Grep brew-pay logs from 06:24 to 07:24 EST. Look for auth failures, timeout spikes, schema errors."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "41a76889-eaf4-4c86-b73f-76425e496e73",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Diff the 06:54 EST deploy (commit 4a82c1f) against 2026-04-12-1830. Three files touched: `charge.ts`, `webhook-handler.ts`, `retry-policy.ts`."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c31580e9-b2dd-4391-a6eb-55fe0c2a165c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Ping Stripe support directly. Ask: any known degradation on card auth endpoints in US-East-1?"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c4a6b50e-d15f-4a56-b91e-979c41f2242e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Verify brew-pay DB connection pool saturation and webhook receiver backlog."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "7a65cf06-5eaf-4eb9-b1bb-fef5b1d87f8b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Classify root cause by T+60. If unresolved at T+60, escalate to SEV-1 and page CTO Mark Chen."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "9be6d9b2-9386-4371-9945-a15d5e2d7e4e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8d884957-ffe0-497d-8aab-d0fd10cd3b93",
+            "text": {
+              "ops": [
+                {
+                  "insert": "### 3. Mitigation Steps — T+60 to T+120"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6dcf84ec-72d3-49dc-8315-829282ed31f9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- If cause = our deploy: rollback to 2026-04-12-1830 via `./scripts/rollback.sh brew-pay 2026-04-12-1830`. Verify pod rotation completes."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "198996bd-3c08-4893-a2a8-bd5f630de652",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- If cause = Stripe-side: flip `processor_fallback` flag to `adyen`. Run one synthetic transaction through Adyen sandbox first — do not fail over blind."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "dbc9a619-eae8-4aca-a37c-5787c8e2efe9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- If cause = DB pool exhaustion: restart brew-pay pods one at a time with 30-second gaps. Do not mass-restart."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "952e1820-295c-4b8c-9284-78de59ab5216",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- After any fix: run synthetic checkout from test account `ops+canary@brew.io`. Require 3 consecutive successes before declaring the mitigation stable."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "42c31c55-4801-4af9-8d26-c4bf8aefd044",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Roll `payment_v3_rollout` back to production in stages: 10% → 25% → 50% → 100%, 5 minutes between steps. Abort on any error-rate spike above 2%."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bb314546-9477-427d-9fe3-9e223480db19",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Remove in-app banner only after error rate holds below 1% for 10 consecutive minutes."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ff7bc7e7-42f3-4b89-b5e7-bc560bb8b507",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "88d317d6-4328-4fca-9889-eb8056b17936",
+            "text": {
+              "ops": [
+                {
+                  "insert": "### 4. Communication Cadence"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b1135d51-fd2c-405b-bd10-92beff29eda7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "| When | Channel | Owner | Content |"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f3552ffb-c09f-4411-bf39-22f7a9d4777d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "|---|---|---|---|"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8ca55723-8f17-46bb-ae1e-930f2df1d98f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "| T+0 | Slack #warroom | Jamie | Channel open, context pinned |"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "39b763df-4c3f-4558-88ca-6f9e42623a7b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "| T+15 | status.brew.io | Sarah | First public ack: \"We're investigating checkout failures.\" |"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "32f9452e-54d7-4a68-9dde-931b0b0d3c85",
+            "text": {
+              "ops": [
+                {
+                  "insert": "| T+30 | Exec brief (email + Slack DM) | Jamie | Severity, scope, current hypothesis, ETA |"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "5c8f98e0-8947-4a4a-a5f9-e15dd0e7b873",
+            "text": {
+              "ops": [
+                {
+                  "insert": "| T+60 | status.brew.io | Sarah | Root cause ID'd or ETA revision |"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "eb094c88-33ff-4349-8d44-176b3c4d5c68",
+            "text": {
+              "ops": [
+                {
+                  "insert": "| T+120 | status.brew.io | Sarah | Mitigation applied, verifying |"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "dc375904-7ba6-4d82-b703-7b02642a8ecc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "| T+180 | status.brew.io | Sarah | Resolved notice |"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "abd1a2db-aea0-4d30-bd92-9fbca46a0c62",
+            "text": {
+              "ops": [
+                {
+                  "insert": "| T+240 | Slack #eng + email | Jamie | Post-mortem owner assigned, 72-hour draft deadline |"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e0ab37a7-a9f7-4b77-a094-31ddab6310c6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3e4104b1-f3fd-47d3-badb-85d0cce4a528",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Customer support (Ava) handles individual refund requests via Zendesk macro `MACRO_20260413_CHECKOUT`. Do not route individual users to the war room."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b2a1071a-7781-4a3f-a4b4-1d2f81a009c5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "21343f05-8759-445a-98d4-3ec534d397ba",
+            "text": {
+              "ops": [
+                {
+                  "insert": "### 5. Definition of Resolved"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ac99ced1-f5be-4815-abc8-0bd6e2b4a256",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Error rate on `POST /checkout` below 1% for 30 consecutive minutes."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "044caeeb-5cb5-4b52-b13e-0ca3e5f6a304",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Zero new PagerDuty alerts on brew-pay for 1 hour."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "66973991-7f75-4edf-98aa-7bffae5ce9ce",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Status page flipped to \"Operational.\""
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "66e89aa7-867e-4180-b543-79e65c3c88e4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- All 7:00–9:00 AM EST failed transactions either auto-retried successfully or queued into the ops refund batch for manual reconciliation."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8b1b7dec-c92c-478a-8dd0-99f416ba5de5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "- Post-mortem doc created in Notion at `Engineering > Incidents > 2026-04-13-brewpay`, owner assigned, 72-hour write-up scheduled."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3c2397d9-3ee0-4fcb-b6d8-21c93bcc7ff8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "61b1fed0-0063-4599-ad18-9ec3ae50333a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "### 6. Top 2 Risks"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "047dda2a-c0ca-4b82-8c6f-99dab61d72ac",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "62871f39-e41c-4957-9322-d16ace375b09",
+            "text": {
+              "ops": [
+                {
+                  "insert": "**Risk A — Rollback clears nothing because the cause is Stripe-side, not ours.**"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8e1054c5-a33d-4c90-bf59-6dcf2fe0ca4f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "We cycle through rollback + investigation twice while customers keep hitting errors. Impact extends past T+120."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bcabb1b5-a7aa-4690-b658-0c03b662bf8f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Response: if rollback does not drop error rate within 20 minutes of completion, flip immediately to Adyen fallback regardless of whether investigation has confirmed root cause. Do not wait for certainty."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f7f3bb72-6161-4ab4-9ccf-15f48d0154b0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b87a2dd7-e1c3-42f9-ad8b-710f214e217e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "**Risk B — Adyen fallback has not run in production since 2025-12-08.**"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bf0c9fdb-a8f0-42b6-ad83-966211fd543a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "The failover path itself may fail and compound the outage. We turn a SEV-2 into a SEV-1 by trying to fix it."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ad0607d1-1e5a-4de0-8545-bfa14d4bae95",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Response: before flipping the fallback flag, run one canary transaction through Adyen sandbox. Sandbox passes → flip. Sandbox fails → do NOT flip. Hold at reduced capacity, escalate to SEV-1, and page Mark Chen for a manual vendor call."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "🔧"
+    },
+    "coverImageType": "background"
+  }
+}

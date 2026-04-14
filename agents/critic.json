@@ -31,16 +31,56 @@
     },
     "type": "emoji"
   },
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
   "variables": {
+    "response-plans": {
+      "id": "response-plans",
+      "rank": "V",
+      "type": "string"
+    },
     "company-context": {
       "id": "company-context",
-      "rank": "V",
+      "rank": "k",
+      "type": "string"
+    },
+    "decision-log": {
+      "id": "decision-log",
+      "rank": "s",
+      "type": "string"
+    },
+    "weekly-priorities": {
+      "id": "weekly-priorities",
+      "rank": "w",
+      "type": "string"
+    },
+    "inbox-triage-2": {
+      "id": "inbox-triage-2",
+      "rank": "y",
       "type": "string"
     }
   },
   "addToKnowledgeProjectVariables": [
     {
+      "id": "response-plans",
+      "type": "agent-template-variable-input-type"
+    },
+    {
       "id": "company-context",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "decision-log",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "weekly-priorities",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "inbox-triage-2",
       "type": "agent-template-variable-input-type"
     }
   ]

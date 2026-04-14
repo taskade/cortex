@@ -32,10 +32,10 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
+          "input": "In the formatting of your response, you should not use a header 2 for your points.Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP2MV4A064B82EF4Q2QS2RCD"
+            "id": "01KP2NYSV39GD3AVDGD4AYNA48"
           }
         }
       }
@@ -50,10 +50,10 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
+          "input": "In the formatting of your response, you should not use a header 2 for your points.\n\nDecision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}\n\nStrategist input: {{ a1a1a1a1-0001-0001-0001-000000000001['result'] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP2MV4A0YKPJ7EFBJ6CDB1Z8"
+            "id": "01KP2NYSV3Z89PXY39TNKRY8TR"
           }
         }
       }
@@ -68,10 +68,10 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
+          "input": "In the formatting of your response, you should not use a header 2 for your points.Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}\n\nResearcher Input {{ a2a2a2a2-0002-0002-0002-000000000002['result'] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP2MV4A02PX80CXR34F0DX7V"
+            "id": "01KP2NYSV3MX2MZNYJSFWT0R34"
           }
         }
       }
@@ -86,10 +86,111 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Decision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}",
+          "input": "In the formatting of your response, you should not use a header 2 for your points.\n\nDecision: {{ trigger[\"body\"][\"decision\"] }}\n\nContext: {{ trigger[\"body\"][\"context\"] }}\n\nResearcher Input: {{ a3a3a3a3-0003-0003-0003-000000000003['result'] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP2MV4A0283A4MZMMMJ8WC61"
+            "id": "01KP2NYSV3MB5JRCTY72P77C3F"
+          }
+        }
+      }
+    },
+    {
+      "name": "498c6f4e-4558-4cc6-a97a-91ca58f0db21",
+      "valid": false,
+      "displayName": "Builder Make Decision",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.ask",
+        "input": {
+          "input": "Decision: {{ trigger['body']['decision'] }}\n\nContext: {{ trigger['body']['context'] }}\n\nStrategist: {{ a1a1a1a1-0001-0001-0001-000000000001['result'] }}\n\nCritic Input: {{ a2a2a2a2-0002-0002-0002-000000000002['result'] }}\nResearcher Input: {{ a3a3a3a3-0003-0003-0003-000000000003['result'] }}\n\nBuilder Input: {{ a4a4a4a4-0004-0004-0004-000000000004['result'] }}\n\nBased on the provided input from  above agents, provide your output following the template below:\n\nTemplate\n[Date] — [Decision Title]\nContext: What prompted this decision?\nOptions considered: What alternatives did we evaluate?\nDecision: What did we choose?\nReasoning: Why this option over others?\nOwner: Who is responsible for execution?\nReview date: When do we evaluate if this was right?",
+          "output": {
+            "type": "object",
+            "required": [
+              "Options considered",
+              "Context",
+              "Decision",
+              "Reasoning",
+              "Owner",
+              "Review date",
+              "Current Date",
+              "Decision Title"
+            ],
+            "properties": {
+              "Owner": {
+                "type": "string",
+                "title": "Owner",
+                "created": 1776064618845,
+                "description": "Who is responsible for execution?"
+              },
+              "Context": {
+                "type": "string",
+                "title": "Context",
+                "created": 1776064571873,
+                "description": "What prompted this decision?"
+              },
+              "Decision": {
+                "type": "string",
+                "title": "Decision",
+                "created": 1776064597936,
+                "description": "What did we choose?"
+              },
+              "Reasoning": {
+                "type": "string",
+                "title": "Reasoning",
+                "created": 1776064608171,
+                "description": "Why this option over others?"
+              },
+              "Review date": {
+                "type": "string",
+                "title": "Review date",
+                "created": 1776064637053,
+                "description": "When do we evaluate if this was right?"
+              },
+              "Current Date": {
+                "type": "string",
+                "title": "Current Date",
+                "created": 1776064871732,
+                "description": "Date of this analysis"
+              },
+              "Decision Title": {
+                "type": "string",
+                "title": "Decision Title",
+                "created": 1776064883424,
+                "description": "Title for this decision"
+              },
+              "Options considered": {
+                "type": "string",
+                "title": "Options considered",
+                "created": 1776064584232,
+                "description": "What alternatives did we evaluate?"
+              }
+            },
+            "addedTimestamp": 1776064568808
+          },
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01KP2NYSV3MB5JRCTY72P77C3F"
+          },
+          "outputType": "structuredoutput"
+        }
+      }
+    },
+    {
+      "name": "2740119c-0100-4f93-a7b5-a6188dfd0e59",
+      "valid": false,
+      "displayName": "Add Task",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "content": "## Decisions {{ 498c6f4e-4558-4cc6-a97a-91ca58f0db21['Current Date'] }} — {{ 498c6f4e-4558-4cc6-a97a-91ca58f0db21['Decision Title'] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "R5cAQa4pU2hA7jMr"
           }
         }
       }
@@ -104,11 +205,12 @@
         "pieceVersion": "BLANK",
         "actionName": "task.create",
         "input": {
-          "content": "Decision Council — {{ trigger[\"body\"][\"decision\"] }}\n\n---\n\n## 🧭 Strategist: Counsel on a Decision\n{{ a1a1a1a1-0001-0001-0001-000000000001[\"result\"] }}\n\n---\n\n## ⚔️ Critic: Argue Against This\n{{ a2a2a2a2-0002-0002-0002-000000000002[\"result\"] }}\n\n---\n\n## 🔬 Researcher: Verify a Claim\n{{ a3a3a3a3-0003-0003-0003-000000000003[\"result\"] }}\n\n---\n\n## 🔧 Builder: Spec It\n{{ a4a4a4a4-0004-0004-0004-000000000004[\"result\"] }}",
+          "blockId": "{{ 2740119c-0100-4f93-a7b5-a6188dfd0e59['nodeId'] }}",
+          "content": "\n- Context : {{ 498c6f4e-4558-4cc6-a97a-91ca58f0db21['Context'] }}\n- Options: {{ 498c6f4e-4558-4cc6-a97a-91ca58f0db21['Options considered'] }}\n- Decision: {{ 498c6f4e-4558-4cc6-a97a-91ca58f0db21['Decision'] }}\n- Reasoning: {{ 498c6f4e-4558-4cc6-a97a-91ca58f0db21['Reasoning'] }}\n- Owner: {{ 498c6f4e-4558-4cc6-a97a-91ca58f0db21['Owner'] }}\n- Review date: {{ 498c6f4e-4558-4cc6-a97a-91ca58f0db21['Review date'] }}\n- Outcome: Pending Review \n\n---\n\n## 🧭 Strategist: Counsel on a Decision\n{{ a1a1a1a1-0001-0001-0001-000000000001[\"result\"] }}\n\n---\n\n## ⚔️ Critic: Argue Against This\n{{ a2a2a2a2-0002-0002-0002-000000000002[\"result\"] }}\n\n---\n\n## 🔬 Researcher: Verify a Claim\n{{ a3a3a3a3-0003-0003-0003-000000000003[\"result\"] }}\n\n---\n\n## 🔧 Builder: Spec It\n{{ a4a4a4a4-0004-0004-0004-000000000004[\"result\"] }}\n\n---",
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "HihBURwSkvDn1KiC"
+            "id": "R5cAQa4pU2hA7jMr"
           }
         }
       }
