@@ -52,14 +52,14 @@
     }
   ],
   "variables": {
-    "builder": {
-      "id": "builder",
+    "01KP2NYSV3MB5JRCTY72P77C3F": {
+      "id": "01KP2NYSV3MB5JRCTY72P77C3F",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "weekly-priorities": {
-      "id": "weekly-priorities",
+    "VDqrmZERJKTFCxGj": {
+      "id": "VDqrmZERJKTFCxGj",
       "rank": "k",
       "type": "string",
       "format": "taskade-project-id"

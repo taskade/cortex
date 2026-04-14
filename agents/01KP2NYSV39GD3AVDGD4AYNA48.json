@@ -36,51 +36,51 @@
     "mode": "chatbot"
   },
   "variables": {
-    "response-plans": {
-      "id": "response-plans",
+    "deRquLCSkfmgoz9M": {
+      "id": "deRquLCSkfmgoz9M",
       "rank": "V",
       "type": "string"
     },
-    "company-context": {
-      "id": "company-context",
+    "jSuYHAuWfhAFWANm": {
+      "id": "jSuYHAuWfhAFWANm",
       "rank": "k",
       "type": "string"
     },
-    "decision-log": {
-      "id": "decision-log",
+    "R5cAQa4pU2hA7jMr": {
+      "id": "R5cAQa4pU2hA7jMr",
       "rank": "s",
       "type": "string"
     },
-    "weekly-priorities": {
-      "id": "weekly-priorities",
+    "VDqrmZERJKTFCxGj": {
+      "id": "VDqrmZERJKTFCxGj",
       "rank": "w",
       "type": "string"
     },
-    "inbox-triage-2": {
-      "id": "inbox-triage-2",
+    "x65jSmXJds7dnUAs": {
+      "id": "x65jSmXJds7dnUAs",
       "rank": "y",
       "type": "string"
     }
   },
   "addToKnowledgeProjectVariables": [
     {
-      "id": "response-plans",
+      "id": "deRquLCSkfmgoz9M",
       "type": "agent-template-variable-input-type"
     },
     {
-      "id": "company-context",
+      "id": "jSuYHAuWfhAFWANm",
       "type": "agent-template-variable-input-type"
     },
     {
-      "id": "decision-log",
+      "id": "R5cAQa4pU2hA7jMr",
       "type": "agent-template-variable-input-type"
     },
     {
-      "id": "weekly-priorities",
+      "id": "VDqrmZERJKTFCxGj",
       "type": "agent-template-variable-input-type"
     },
     {
-      "id": "inbox-triage-2",
+      "id": "x65jSmXJds7dnUAs",
       "type": "agent-template-variable-input-type"
     }
   ]
