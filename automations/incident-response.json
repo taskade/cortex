@@ -60,7 +60,7 @@
           "input": "We have an active incident. Spec the next 4 hours of response.\n\nSEVERITY: {{ trigger[\"body\"][\"severity\"] }}\nSUMMARY: {{ trigger[\"body\"][\"summary\"] }}\nAFFECTED SYSTEMS: {{ trigger[\"body\"][\"affected_systems\"] }}\nOWNER: {{ trigger[\"body\"][\"owner\"] }}\n\nDeliver:\n1. Immediate actions (first 15 min)\n2. Investigation sequence (next 45 min)\n3. Mitigation steps (next 60 min)\n4. Communication cadence (who, what, when)\n5. Definition of resolved\n6. Top 2 risks that could make this worse\n\nBe precise. Use verbs. No hedging.",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP2MV4A0283A4MZMMMJ8WC61"
+            "id": "01KP2NYSV3MB5JRCTY72P77C3F"
           }
         }
       }
@@ -68,7 +68,7 @@
     {
       "name": "d2d2d2d2-0002-0002-0002-000000000002",
       "valid": false,
-      "displayName": "Append War Room to Decision Log",
+      "displayName": "Append War Room to Response Plans",
       "type": "PIECE",
       "settings": {
         "pieceName": "@taskade/automade-internalpiece-taskade",
@@ -79,7 +79,7 @@
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "HihBURwSkvDn1KiC"
+            "id": "deRquLCSkfmgoz9M"
           }
         }
       }
@@ -92,8 +92,8 @@
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "decision-log": {
-      "id": "decision-log",
+    "response-plans": {
+      "id": "response-plans",
       "rank": "k",
       "type": "string",
       "format": "taskade-project-id"

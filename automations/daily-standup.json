@@ -3,7 +3,7 @@
   "flowTitle": "Daily Standup",
   "trigger": {
     "valid": false,
-    "displayName": "Every Weekday at 9AM",
+    "displayName": "Every Day",
     "type": "PIECE_TRIGGER",
     "settings": {
       "pieceName": "@taskade/automade-internalpiece-schedule",
@@ -14,43 +14,6 @@
   },
   "actions": [
     {
-      "name": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "valid": true,
-      "displayName": "Weekday Filter (Mon–Fri)",
-      "type": "BRANCH",
-      "settings": {},
-      "paths": [
-        {
-          "name": "b2c3d4e5-f678-90ab-cdef-123456789012",
-          "valid": true,
-          "displayName": "Is Weekday",
-          "type": "BRANCH_PATH",
-          "settings": {
-            "ruleset": {
-              "type": "CUSTOM",
-              "input": {
-                "type": "or",
-                "value": [
-                  {
-                    "type": "and",
-                    "value": [
-                      {
-                        "condition": "text_is_not_empty",
-                        "id": "7fb4f314-774d-4a21-a95d-bc276be645be",
-                        "data": "{{ trigger[\"triggerTime\"] }}",
-                        "comparator": ""
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          },
-          "actions": []
-        }
-      ]
-    },
-    {
       "name": "c3d4e5f6-7890-abcd-ef12-345678901234",
       "valid": false,
       "displayName": "Builder — Sequence the Work",
@@ -60,10 +23,10 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Review open tasks across the workspace and suggest what should ship today. Prioritize by urgency, dependencies, and impact. Format as a clear, actionable standup list.",
+          "input": "Review open tasks across the projects and suggest what should ship today. Prioritize by urgency, dependencies, and impact. Format as a clear, actionable standup list.",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP2MV4A0283A4MZMMMJ8WC61"
+            "id": "01KP2NYSV3MB5JRCTY72P77C3F"
           }
         }
       }
@@ -82,7 +45,7 @@
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "HihBURwSkvDn1KiC"
+            "id": "VDqrmZERJKTFCxGj"
           }
         }
       }
@@ -95,8 +58,8 @@
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "decision-log": {
-      "id": "decision-log",
+    "weekly-priorities": {
+      "id": "weekly-priorities",
       "rank": "k",
       "type": "string",
       "format": "taskade-project-id"

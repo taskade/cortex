@@ -26,7 +26,7 @@
           "input": "Summarize this week's decisions from the Decision Log in exactly 10 bullets. Cut everything that isn't a concrete decision, number, name, or outcome. Be ruthless.",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP2MV4A08B7NCXR1HBFS2VXN"
+            "id": "01KP2NYSV3FEZ09WSYFBGKCM6C"
           }
         }
       }
@@ -41,10 +41,10 @@
         "pieceVersion": "BLANK",
         "actionName": "agent.run_command",
         "input": {
-          "input": "Stress test next week's plan. Identify the three most likely points of failure, the hidden assumptions, and the conditions under which the plan breaks down completely.",
+          "input": "Stress test next week's plan. Identify the three most likely points of failure, the hidden assumptions, and the conditions under which the plan breaks down completely.\n\n{{ b1b1b1b1-0001-0001-0001-000000000001['result'] }}",
           "agentId": {
             "type": "flow-template-variable-input-type",
-            "id": "01KP2MV4A064B82EF4Q2QS2RCD"
+            "id": "01KP2NYSV39GD3AVDGD4AYNA48"
           }
         }
       }
@@ -63,7 +63,7 @@
           "position": "beforeend",
           "projectId": {
             "type": "flow-template-variable-input-type",
-            "id": "HihBURwSkvDn1KiC"
+            "id": "R5cAQa4pU2hA7jMr"
           }
         }
       }
