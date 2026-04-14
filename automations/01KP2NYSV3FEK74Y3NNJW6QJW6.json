@@ -52,14 +52,14 @@
     }
   ],
   "variables": {
-    "strategist": {
-      "id": "strategist",
+    "01KP2NYSV39GD3AVDGD4AYNA48": {
+      "id": "01KP2NYSV39GD3AVDGD4AYNA48",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "weekly-priorities": {
-      "id": "weekly-priorities",
+    "VDqrmZERJKTFCxGj": {
+      "id": "VDqrmZERJKTFCxGj",
       "rank": "k",
       "type": "string",
       "format": "taskade-project-id"

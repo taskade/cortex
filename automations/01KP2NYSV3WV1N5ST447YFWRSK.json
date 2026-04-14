@@ -65,14 +65,14 @@
     }
   ],
   "variables": {
-    "researcher": {
-      "id": "researcher",
+    "01KP2NYSV3MX2MZNYJSFWT0R34": {
+      "id": "01KP2NYSV3MX2MZNYJSFWT0R34",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "inbox-triage-2": {
-      "id": "inbox-triage-2",
+    "x65jSmXJds7dnUAs": {
+      "id": "x65jSmXJds7dnUAs",
       "rank": "k",
       "type": "string",
       "format": "taskade-project-id"

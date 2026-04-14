@@ -70,20 +70,20 @@
     }
   ],
   "variables": {
-    "editor": {
-      "id": "editor",
+    "01KP2NYSV3FEZ09WSYFBGKCM6C": {
+      "id": "01KP2NYSV3FEZ09WSYFBGKCM6C",
       "rank": "V",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "strategist": {
-      "id": "strategist",
+    "01KP2NYSV39GD3AVDGD4AYNA48": {
+      "id": "01KP2NYSV39GD3AVDGD4AYNA48",
       "rank": "k",
       "type": "string",
       "format": "taskade-space-agent-id"
     },
-    "decision-log": {
-      "id": "decision-log",
+    "R5cAQa4pU2hA7jMr": {
+      "id": "R5cAQa4pU2hA7jMr",
       "rank": "s",
       "type": "string",
       "format": "taskade-project-id"
