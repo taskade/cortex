@@ -37,6 +37,21 @@ function loadArtifacts(dirName) {
   }));
 }
 
+function loadAppArtifacts(dirName) {
+  const dirPath = path.join(ROOT, dirName);
+  if (!fs.existsSync(dirPath)) {
+    return [];
+  }
+
+  return fs
+    .readdirSync(dirPath, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => ({
+      id: entry.name,
+      data: readJson(path.join(dirPath, entry.name, "package.json")),
+    }));
+}
+
 // Read manifest
 const manifest = readJson(path.join(ROOT, "manifest.json"));
 
@@ -46,7 +61,7 @@ const bundle = {
   agents: loadArtifacts("agents"),
   projects: loadArtifacts("projects"),
   automations: loadArtifacts("automations"),
-  apps: loadArtifacts("apps"),
+  apps: loadAppArtifacts("apps"),
   assembledAt: new Date().toISOString(),
 };
 

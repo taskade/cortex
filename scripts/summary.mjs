@@ -3,7 +3,8 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 
-const BUNDLE_DIRS = ["agents", "apps", "automations", "projects"];
+const JSON_DIRS = ["agents", "automations", "projects"];
+const APP_DIR = "apps";
 
 function listJsonFiles(dirName) {
   const dirPath = path.join(ROOT, dirName);
@@ -14,6 +15,19 @@ function listJsonFiles(dirName) {
   return fs
     .readdirSync(dirPath, { withFileTypes: true })
     .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
+    .map((entry) => entry.name)
+    .sort();
+}
+
+function listAppDirs(dirName) {
+  const dirPath = path.join(ROOT, dirName);
+  if (!fs.existsSync(dirPath)) {
+    return [];
+  }
+
+  return fs
+    .readdirSync(dirPath, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
     .map((entry) => entry.name)
     .sort();
 }
@@ -41,7 +55,7 @@ console.log(`Name: ${manifest.name ?? "Unknown"}`);
 console.log(`Space ID: ${manifest.spaceId ?? "Unknown"}`);
 console.log(`Version: ${manifest.version ?? "Unknown"}`);
 
-for (const dirName of BUNDLE_DIRS) {
+for (const dirName of JSON_DIRS) {
   const files = listJsonFiles(dirName);
   printHeader(`${dirName} (${files.length})`);
 
@@ -49,6 +63,12 @@ for (const dirName of BUNDLE_DIRS) {
     const id = fileName.replace(/\.json$/u, "");
     console.log(`- ${id}`);
   }
+}
+
+const appDirs = listAppDirs(APP_DIR);
+printHeader(`${APP_DIR} (${appDirs.length})`);
+for (const name of appDirs) {
+  console.log(`- ${name}`);
 }
 
 console.log("\nSummary completed.");

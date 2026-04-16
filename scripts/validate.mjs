@@ -3,7 +3,8 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 
-const REQUIRED_DIRS = ["agents", "apps", "automations", "projects"];
+const JSON_DIRS = ["agents", "automations", "projects"];
+const APP_DIR = "apps";
 
 const errors = [];
 
@@ -44,6 +45,25 @@ function listJsonFiles(dirName) {
   }
 
   return files;
+}
+
+function listAppDirs(dirName) {
+  const dirPath = path.join(ROOT, dirName);
+  if (!fs.existsSync(dirPath)) {
+    fail(`Missing directory: ${dirName}`);
+    return [];
+  }
+
+  const dirs = fs
+    .readdirSync(dirPath, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => path.join(dirPath, entry.name));
+
+  if (dirs.length === 0) {
+    fail(`Directory has no app subdirectories: ${dirName}`);
+  }
+
+  return dirs;
 }
 
 function validateManifest() {
@@ -87,17 +107,21 @@ function validateAgents() {
 }
 
 function validateApps() {
-  for (const filePath of listJsonFiles("apps")) {
-    const data = readJson(filePath);
+  for (const appDir of listAppDirs(APP_DIR)) {
+    const pkgPath = path.join(appDir, "package.json");
+    const rel = path.relative(ROOT, appDir);
+
+    if (!fs.existsSync(pkgPath)) {
+      fail(`${rel}: missing package.json`);
+      continue;
+    }
+
+    const data = readJson(pkgPath);
     if (data == null) {
       continue;
     }
 
-    const rel = path.relative(ROOT, filePath);
-    assert(
-      typeof data.src === "object" && data.src != null,
-      `${rel}: src object is required`,
-    );
+    assert(typeof data.name === "string", `${rel}/package.json: name must be a string`);
   }
 }
 
@@ -138,9 +162,10 @@ function validateProjects() {
 
 validateManifest();
 
-for (const dirName of REQUIRED_DIRS) {
+for (const dirName of JSON_DIRS) {
   listJsonFiles(dirName);
 }
+listAppDirs(APP_DIR);
 
 validateAgents();
 validateApps();
